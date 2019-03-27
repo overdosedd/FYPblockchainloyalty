@@ -43,6 +43,12 @@ run this set of code:
         json-server --watch db.json
 
 
+###Big Chain DB
+
+To install BigchainDB
+
+        npm install bigchaindb-driver
+
 
 
 
