@@ -1,27 +1,50 @@
-# FYP
+Github Link: https://github.com/overdosedd/FYPblockchainloyalty
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## E-commerce Web Portal: Blockchain-based Loyalty Program
+-------
+### PC Requirements
+-------
+*64-bit Windows 10 Version 1709 
+    *	aka Fall Creators Update or Build 16299
+    *	Go to: Settings > System > About to check your version of Windows
+    *	If your PC is not up to date, go to: Settings > Update & security > Windows Update
 
-## Development server
+*At least 18-20 GB of available hard disk space to install software, store tutorial files, and to compile applications developed during tutorials
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### DownloaD
+-----
+[Nodejs](https://nodejs.org/en/)
 
-## Code scaffolding
+### Setup Instructions
+-----
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Angular:
 
-## Build
+#####How to run
+Check that you have npm or update all the files installed if dont:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+        npm install
+Install the Angular CLI
 
-## Running unit tests
+        npm install -g @angular/cli
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run the codes: 
+        
+        ng serve
 
-## Running end-to-end tests
+To install JSON- server:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+        npm install -g json-server
+To run the JSON Server go to the terminal:
 
-## Further help
+        cd app/_models
+run this set of code:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+        json-server --watch db.json
+
+
+
+
+
+
+-----
