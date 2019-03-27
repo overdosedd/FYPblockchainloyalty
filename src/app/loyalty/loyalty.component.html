@@ -1,0 +1,202 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-9">
+      <div>
+        <h2>
+          <img src="assets/images/rewards.png" height="30" width="30">
+          My Rewards
+        </h2>
+      </div>
+      <hr>
+      <div>
+        <!-- //call the ngif for change of trolley -->
+        <div style="margin-left: 40%">
+          <img src="assets/images/bronze.png" height="100" width="100"> <label style="font-family: Algerian; font-size: 30px">Bronze
+            Tier</label> <img src="assets/images/bronze_star.png" height="50" width="50">
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar"  attr.aria-valuenow="{{totalpoints}}"  style="width: 18%"  aria-valuemin="0"
+            aria-valuemax="99"></div>
+        </div>
+
+
+        <p style="margin-left: 35%;font-family: Algerian; font-size: 25px"> Balance Points:<label style="font-family: Algerian; font-size: 50px">{{totalpoints}}</label>
+          <label style="font-family: Algerian; font-size: 25px">/</label> <label style="font-family: Algerian; font-size: 25px">99</label>
+        </p>
+        <p style="margin-left: 35%;font-family: Algerian; font-size: 15px">Way to go!  <label> {{99-totalpoints}}</label> points left to Bronze Level</p>
+
+      </div>
+
+      <div class="container-fluid" style="margin-top: 5%;">
+        <tabset [justified]="true" style>
+          <tab heading="Reward History">
+            <div class="container-fluid" style="margin-top: 5%;">
+              <tabset [justified]="true" style>
+                <tab heading="Points Awarded">
+
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>Date/ Time</th>
+                        <th>Transaction ID</th>
+                        <th>Transaction Name</th>
+                        <th>Points</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let item of this.loyaltyDetails">
+
+                        <td> {{item.data.date | date:'medium'}} </td>
+                        <td> {{item.id}} </td>
+                        <td>{{ item.data.action}}</td>
+                        <td> {{item.data.points}}</td>
+
+                        <td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </tab>
+                <tab heading="Points Redeemed">
+
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>Time</th>
+                        <th>Transaction ID</th>
+                        <th>Transaction Name</th>
+                        <th>Points</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+
+                        <td> hi </td>
+                        <td> hi </td>
+                        <td> hi</td>
+                        <td> hi</td>
+
+                        <td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </tab>
+              </tabset>
+            </div>
+
+          </tab>
+          <tab heading="Redeem">
+
+            <form>
+              <h5>
+                <img src="assets/images/rewards.png" height="30" width="30">
+                My Redemption
+              </h5>
+              <div class="md-form">
+                <div class="row">
+                  <input mdbInput mdbValidate name="input" type="number" id="form5" class="form-control" [(ngModel)]="max"
+                    #input="ngModel" style="width:30%">
+                  <label style="font-family: Algerian; font-size: 25px">=</label>
+                  <label style="font-family: Arial, Helvetica, sans-serif; font-size: 30px">1.00</label> <label style="font-family: Arial, Helvetica, sans-serif; font-size: 30px">SGD</label>
+                  &nbsp;&nbsp;
+                  <button mdbBtn type="button" color="info" mdbWavesEffect style="width: 30%" data-target="#redeem">
+                    Redeem
+                  </button>
+
+                  <button mdbBtn type="button" color="success" mdbWavesEffect style="width: 30%" data-target="#redeem" (click)= "createloyaltytransact()">
+                     Create Loyalty Transaction
+                    </button>
+                </div>
+
+                <hr>
+                <h5>
+                  <img src="assets/images/rewards.png" height="30" width="30">
+                  My Redemption Activity
+                </h5>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Activity Items</th>
+                      <th>Voucher Code</th>
+                      <th>Action</th>
+
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+
+                      <td> hi </td>
+                      <td> hi </td>
+                      <td> <button mdbBtn type="button" color="warning" mdbWavesEffect data-target="#collect">
+                          Collect
+                        </button></td>
+
+
+                      <td>
+                    </tr>
+                  </tbody>
+                </table>
+
+
+
+
+              </div>
+            </form>
+
+          </tab>
+          <tab heading="Reward Tiers">
+
+            <h5>
+              <img src="assets/images/rewards.png" height="30" width="30">
+              Reward Tiers Benefit
+            </h5>
+            <div> <img src="assets/images/table.png" height="1000" width="1000"></div>
+            <hr>
+            <h5>
+              <img src="assets/images/rewards.png" height="30" width="30">
+              Reward point System
+            </h5>
+            <div> <img src="assets/images/loyaltypoint.png" height="1000" width="1000"></div>
+          </tab>
+        </tabset>
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="col-3">
+      <div class="sidenav">
+        <a (click)="toProfile()">
+          <img src="../../assets/images/profile.png" height="50" width="50">
+          My Profile
+        </a>
+        <hr>
+        <a [routerLink]="['/home/orders']">
+          <img src="../../assets/images/orders.png" height="50" width="50">
+          My Orders
+        </a>
+        <hr>
+        <a href="Notification.html">
+          <img src="../../assets/images/notification.png" height="50" width="50">
+          My Notifications
+        </a>
+        <hr>
+        <a href="Ewallet.html">
+          <img src="../../assets/images/ewallet.png" height="50" width="50">
+          My EWallet
+        </a>
+        <hr>
+        <a routerLink="/home/loyalty_point" routerLinkActive="active">
+          <img src="../../assets/images/rewards.png" height="50" width="50">
+          My Rewards
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

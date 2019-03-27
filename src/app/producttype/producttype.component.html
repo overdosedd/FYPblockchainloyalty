@@ -1,0 +1,135 @@
+<!-- /carousel* -->
+<div class="container-fluid" style="display:inline-flex;">
+  <div class="row">
+    <div class="col-4">
+      <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" style="max-width: 100%;">
+        <mdb-carousel-item *ngFor="let image of this.productDetail.img">
+          <div class="view w-100">
+            <img class="d-block w-100" src={{image}} alt="All images">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive"></h3>
+          </div>
+        </mdb-carousel-item>
+      </mdb-carousel>
+    </div>
+    <!-- //main class // -->
+    <div class=" col-6">
+
+      <h1>{{this.productDetail.title}}</h1>
+      <span>
+        from
+        <a href="#">{{this.productDetail.make}}</a>
+      </span>
+      <hr>
+      <div class="row">
+        <div class="col-3">
+          <h5 style="line-height: 55px;">Product ID:</h5>
+        </div>
+        <div class="col-6">
+          <a># {{this.productDetail.id}}</a>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <h5 style="line-height: 55px;">Price:</h5>
+        </div>
+        <div class="col-6">
+          <s>$ {{this.productDetail.originalprice}}</s>
+          &nbsp;
+          <strong style="color:red; font-size:30px">$ {{this.productDetail.price}}</strong>
+        </div>
+      </div>
+      <div class="row" *ngFor="let option of this.productDetail.option">
+        <div class="col-3">
+          <h5>{{option.title}}:</h5>
+        </div>
+        <div class="col-6" *ngIf="option != null">
+          <select class="browser-default custom-select" [(ngModel)]="option.selected">
+            <option *ngFor="let item of option.type" [ngValue]="item.value">
+            {{item.value}}
+            </option>
+          </select>
+
+        </div>
+      </div>
+
+      <!-- <div class="row" style="margin-top:3%">
+        <div class="col-3">
+          <h5>{{this.productDetail.option[1].title}}:</h5>
+        </div>
+
+        <div class="col-6">
+
+          <select class="browser-default custom-select">
+            <option selected *ngFor= "let option of this.productDetail.option" [(ngModel)] = option.selected >Choose Colour</option>
+            <option value={{item.no}} *ngFor="let item of this.productDetail.option[1].type">
+              {{item.value}}
+            </option>
+          </select>
+
+        </div>
+      </div> -->
+      <div class="row" style="margin-top: 2%">
+        <div class="col-3">
+          <h5>Quanitity:</h5>
+        </div>
+        <input type="number" [(ngModel)]="this.productDetail.quantity" value="1" aria-label="Search" class="form-control"
+          style="width: 100px" min="0">
+      </div>
+
+      <div class="row" style="margin-top:3%">
+        <div class="col-3">
+          <h5>Availability:</h5>
+        </div>
+        <span style="color: limegreen">{{this.productDetail.availability}}</span>
+      </div>
+
+      <mat-tab-group>
+        <mat-tab label="Product Description">
+          <h3>Hightlights</h3>
+          <ul>
+            <li>{{this.productDetail.description}}</li>
+          </ul>
+        </mat-tab>
+        <mat-tab label="Product Specification">
+
+          <h3>Hightlights</h3>
+          <table class="table table-hover">
+            <thead>
+              <tr *ngFor="let item of this.productDetail.specs">
+                <td>{{item.type}}</td>
+                <td style="width:50%">{{item.value}}</td>
+
+              </tr>
+            </thead>
+          </table>
+
+        </mat-tab>
+
+      </mat-tab-group>
+
+    </div>
+    <!-- ------------------------------------------ -->
+    <div class="col-2" style="margin-top: 5%">
+
+      <div>
+        <button class="button" (click)="addtoCart(this.productDetail)">
+          <span>Add to Cart!</span>
+        </button>
+      </div>
+      <div>
+        <h5>Return and warranty</h5>
+      </div>
+      <!-- Default checked disabled -->
+      <mdb-checkbox [disabled]="true" [checked]="true" [default]="true" *ngFor="let check of checkbox" style=" padding:3px">
+        {{check}}
+      </mdb-checkbox>
+
+    </div>
+
+  </div>
+
+</div>

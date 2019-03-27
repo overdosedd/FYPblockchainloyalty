@@ -1,0 +1,501 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-9">
+      <div>
+        <h2>
+          <img src="assets/images/profile.png" height="30" width="30">
+          MY PROFILE
+        </h2>
+      </div>
+      <hr>
+
+      <div class="container-fluid" style="margin-top: 5%;">
+        <tabset [justified]="true" style>
+          <tab heading="General Information">
+
+
+            <form [formGroup]="profileForm" class="border border-light p-5">
+              <p class="h2 mb-4 ">General Information</p>
+              <div class="form-group ">
+                <div class="col-xs-6">
+                  <label for="email">
+                    <h5>Email</h5>
+                  </label>
+                  <br>
+                  <label formControlName="email">{{this.userDetail.email}}</label>
+                </div>
+
+              </div>
+              <div class="form-group">
+                <div class="col-xs-6">
+                  <label for="firstname">
+                    <h5>First name</h5>
+                  </label>
+                  <br>
+                  <label formControlName="firstName">{{this.userDetail.firstName}}</label>
+                </div>
+
+              </div>
+              <div class="form-group">
+                <div class="col-xs-6">
+                  <label for="lastname">
+                    <h5>Last Name</h5>
+                  </label>
+                  <br>
+                  <label formControlName="lastName">{{this.userDetail.lastName}}</label>
+                </div>
+
+              </div>
+
+
+              <!-- <div class="form-group">
+                <div class="col-xs-6">
+                  <label for="mobile">
+                    <h5>Mobile</h5>
+                  </label>
+                  <br>
+                  <input type="tel" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number"
+                    aria-describedby="defaultRegisterFormPhoneHelpBlock" style="width:50%;">
+                  <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                    Optional - for two step authentication
+                  </small>
+                </div>
+
+              </div> -->
+              <div class="form-group">
+                <div class="col-xs-6">
+                  <label for="dob">
+                    <h5>Date of Birth</h5>
+                  </label>
+                  <br>
+                  <mat-form-field>
+                    <input matInput [matDatepicker]="picker" placeholder="Choose a date" formControlName="dob">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                  </mat-form-field>
+
+                </div>
+
+                <!-- <mat-radio-group [(ngModel)]="address.default" >
+                              <mat-radio-button  value="Yes">Yes</mat-radio-button>
+                              <mat-radio-button value="No">No</mat-radio-button>
+                            </mat-radio-group> -->
+
+              </div>
+
+              <div class="form-group">
+                <div class="col-xs-6">
+                  <label for="gender">
+                    <h5>Gender</h5>
+                  </label>
+                  <br>
+                  <!-- {{this.userDetail.gender}} -->
+                  <!-- Default inline 1-->
+                  <mat-radio-group [(ngModel)]="this.userDetail.gender" formControlName="gender">
+                    <mat-radio-button [checked]="this.userDetail.gender ==='Male' " value="Male">Male</mat-radio-button>
+                    &nbsp;
+                    <mat-radio-button [checked]="this.userDetail.gender === 'Femaile' " value="Female">Female</mat-radio-button>
+                  </mat-radio-group>
+                </div>
+
+                <!-- <mat-radio-group [(ngModel)]="address.default" >
+                            <mat-radio-button  value="Yes">Yes</mat-radio-button>
+                            <mat-radio-button value="No">No</mat-radio-button>
+                          </mat-radio-group> -->
+
+              </div>
+              <!-- <button mdbBtn type="button"  class="block" color="success" style="align-self: center" mdbWavesEffect >
+                Save
+                </button>     -->
+              <hr>
+              <p class="h2 mb-4 ">Security Information</p>
+              <div class="form-group ">
+                <div class="col-xs-6">
+                  <label for="password">
+                    <h5>Password</h5>
+                  </label>
+                  <br>
+                  <label formControlName="password" id="password" type="password">
+                    {{this.userDetail.password}}
+                  </label>
+                  &nbsp;
+                  <button mdbBtn type="button" color="info" (click)="frame.show()" mdbWavesEffect data-toggle="modal"
+                  data-target="#changepassword">
+                 Change Password
+                </button>    
+                
+                <!-- /change password  -->
+                <!-- ------------ -->
+                <div mdbModal #frame="mdbModal" class="modal fade left" id="frameModalTop" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header text-center">
+                      <h4 class="modal-title w-100 font-weight-bold">Change Password</h4>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+
+                    <form [formGroup]="changepasswordForm" class="modal-body mx-3" (ngSubmit)="updatePassword(this.changepasswordForm.value); frame.hide();">
+
+                      <!--password -->
+                      <div class="md-form mb-2">
+
+                        <input type="text" formControlName="newpassword" class="form-control validate"
+                          placeholder="New Password" mdbInputDirective />
+
+                      </div>
+
+                      <!-- verify new password-->
+                      <div class="md-form mb-2">
+
+                        <input type="text" formControlName="newpassword2" class="form-control validate"
+                          placeholder="verify New Password" mdbInputDirective />
+
+                      </div>
+
+
+                      <div class="modal-footer d-flex justify-content-center">
+                        <button mdbBtn color="deep-orange" class="waves-light" mdbWavesEffect type="submit">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+                </div>
+
+              </div>
+              
+
+            </form>
+
+          </tab>
+          <tab heading="Address Book">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th *ngFor="let col of columns" scope="col">{{col.name}}</th>
+                        <th>Default Address</th>
+                        <th>Action</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let address of this.addressDetail">
+
+                        <td> {{address.id}} </td>
+                        <td> {{address.fullName}} </td>
+                        <td> {{address.streetAddress1}} {{address.streetAddress2}}</td>
+                        <td> {{address.zipCode}}</td>
+                        <td> {{address.state}}</td>
+                        <td>
+                          <!-- <mat-radio-group [(ngModel)]="address.default" >
+                            <mat-radio-button  value="Yes">Yes</mat-radio-button>
+                            <mat-radio-button value="No">No</mat-radio-button>
+                          </mat-radio-group> -->
+                          <section class="example-section" [(ngModel)]="address.default">
+                            <mat-checkbox class="example-margin" (click)="unchecked()" *ngIf="address.default === 'Yes'"
+                              [(ngModel)]="checked"></mat-checkbox>
+
+                            <mat-checkbox class="example-margin" (click)="unchecked()" *ngIf="address.default === 'No'"
+                              [(ngModel)]="disabled" [disabled]="disabled"></mat-checkbox>
+                          </section>
+
+
+
+
+
+                        </td>
+
+                        <td><button mdbBtn type="button" color="info" (click)="frame.show()" mdbWavesEffect data-toggle="modal"
+                            data-target="#editAddress">
+                            <mdb-icon icon="edit" class="ml-1"></mdb-icon>
+                          </button>
+
+
+
+                          <div mdbModal #frame="mdbModal" class="modal fade left" id="frameModalTop" tabindex="-1" role="dialog"
+                            aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header text-center">
+                                  <h4 class="modal-title w-100 font-weight-bold">Edit Address</h4>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+
+                                <form [formGroup]="editAddressForm" class="modal-body mx-3" (ngSubmit)="editAddress(this.editAddressForm.value); frame.hide()">
+
+                                  <!-- Full Name -->
+                                  <div class="md-form mb-2">
+
+                                    <input type="text" formControlName="fullName" class="form-control validate"
+                                      placeholder="Full Name" mdbInputDirective />
+
+                                  </div>
+
+                                  <!-- Country -->
+                                  <div class="md-form mb-2">
+
+                                    <input type="text" formControlName="country" class="form-control validate"
+                                      placeholder="Country" mdbInputDirective />
+
+                                  </div>
+
+                                  <!-- Address 1-->
+                                  <div class="md-form mb-2">
+
+                                    <input type="text" formControlName="streetAddress1" class="form-control validate"
+                                      placeholder="Address" mdbInputDirective />
+
+                                  </div>
+
+                                  <!-- Address 2 -->
+                                  <div class="md-form mb-2">
+
+                                    <input type="text" formControlName="streetAddress2" class="form-control validate"
+                                      placeholder="Address 2" mdbInputDirective />
+
+                                  </div>
+
+
+                                  <div class="form-row mb-4">
+
+                                    <div class="col">
+                                      <!-- State -->
+                                      <input type="text" formControlName="state" mdbInputDirective class="form-control"
+                                        placeholder="State" />
+
+                                    </div>
+
+                                    <div class="col">
+                                      <!-- Last name -->
+                                      <input type="text" formControlName="city" mdbInputDirective class="form-control"
+                                        placeholder="City" />
+
+                                    </div>
+
+                                  </div>
+
+
+                                  <!-- ZipCode-->
+                                  <div class="md-form mb-2">
+
+                                    <input type="text" formControlName="zipCode" class="form-control validate"
+                                      placeholder="Zip Code" mdbInputDirective />
+
+                                  </div>
+
+                                  <!-- phone number-->
+                                  <div class="md-form mb-2">
+
+                                    <input type="text" formControlName="phoneNumber" class="form-control validate"
+                                      placeholder="Phone Number" mdbInputDirective />
+
+                                  </div>
+
+
+
+                                  <label data-error="wrong" data-success="right" for="orangeForm-biladd">Default
+                                    Billing Address</label>
+                                  <br />
+                                  <!-- Default inline 1-->
+                                  <mat-radio-group [(ngModel)]="default" formControlName="default">
+                                    <mat-radio-button value="Yes">Yes</mat-radio-button>
+                                    <mat-radio-button value="No">No</mat-radio-button>
+                                  </mat-radio-group>
+                                  <div class="modal-footer d-flex justify-content-center">
+                                    <button mdbBtn color="deep-orange" class="waves-light" mdbWavesEffect type="submit">Edit</button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+
+                          <button mdbBtn type="button" color="danger" mdbWavesEffect (click)="deleteAddress()">
+                            <mdb-icon icon="trash" class="ml-1"></mdb-icon>
+                          </button>
+
+                        </td>
+
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <button mdbBtn type="button" color="success" (click)="frame.show()" mdbWavesEffect data-toggle="modal"
+                    data-target="#addAddress" style="float: right">
+                    <mdb-icon icon="plus" class="ml-1"></mdb-icon>
+                    Add New Address
+                  </button>
+
+                  <div mdbModal #frame="mdbModal" class="modal fade left" id="frameModalTop" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header text-center">
+                          <h4 class="modal-title w-100 font-weight-bold">Add New Address</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+
+                        <form [formGroup]="addAddressForm" class="modal-body mx-3" (ngSubmit)="addNewAddress(this.addAddressForm.value); frame.hide()">
+
+                          <!-- Full Name -->
+                          <div class="md-form mb-2">
+
+                            <input type="text" formControlName="fullName" class="form-control validate" placeholder="Full Name"
+                              mdbInputDirective />
+
+                          </div>
+
+                          <!-- Country -->
+                          <div class="md-form mb-2">
+
+                            <input type="text" formControlName="country" class="form-control validate" placeholder="Country"
+                              mdbInputDirective />
+
+                          </div>
+
+                          <!-- Address 1-->
+                          <div class="md-form mb-2">
+
+                            <input type="text" formControlName="streetAddress1" class="form-control validate"
+                              placeholder="Address" mdbInputDirective />
+                          </div>
+
+                          <!-- Address 2 -->
+                          <div class="md-form mb-2">
+
+                            <input type="text" formControlName="streetAddress2" class="form-control validate"
+                              placeholder="Address 2" mdbInputDirective />
+
+                          </div>
+
+
+                          <div class="form-row mb-4">
+
+                            <div class="col">
+                              <!-- State -->
+                              <input type="text" formControlName="state" mdbInputDirective class="form-control"
+                                placeholder="State" />
+
+                            </div>
+
+                            <div class="col">
+                              <!-- Last name -->
+                              <input type="text" formControlName="city" mdbInputDirective class="form-control"
+                                placeholder="City" />
+
+                            </div>
+
+                          </div>
+
+
+                          <!-- ZipCode-->
+                          <div class="md-form mb-2">
+
+                            <input type="text" formControlName="zipCode" class="form-control validate" placeholder="Zip Code"
+                              mdbInputDirective />
+
+                          </div>
+
+                          <!-- phone number-->
+                          <div class="md-form mb-2">
+
+                            <input type="text" formControlName="phoneNumber" class="form-control validate" placeholder="Phone Number"
+                              mdbInputDirective />
+
+                          </div>
+
+
+
+                          <label data-error="wrong" data-success="right" for="orangeForm-biladd">Default
+                            Billing Address</label>
+                          <br />
+                          <mat-radio-group [(ngModel)]="default" formControlName="default">
+                            <mat-radio-button value="Yes">Yes</mat-radio-button>
+                            <mat-radio-button value="No">No</mat-radio-button>
+                          </mat-radio-group>
+                          <div class="modal-footer d-flex justify-content-center">
+                            <button mdbBtn color="deep-orange" class="waves-light" mdbWavesEffect type="submit">Add</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+
+          </tab>
+          <tab heading="Payment Option">
+            <h4>Payment Method </h4>
+
+            <!-- Default inline 1-->
+            <!-- Default inline 1-->
+            <mat-radio-group [(ngModel)]="payment" formControlName="payment">
+                <mat-radio-button checked value="paypal" style="width: 8%"><img src="../../assets/images/paypal.png" alt="Pay with Paypal"></mat-radio-button>
+                &nbsp;
+                <mat-radio-button  value="utrust" style="width: 8%"><img src="../../assets/images/utrust.png" alt="Pay with Utrust"></mat-radio-button>
+              </mat-radio-group>
+
+            <hr>
+            <h4>Delivery Method </h4>
+
+            <mat-radio-group [(ngModel)]="delivery" formControlName="delivery">
+                <mat-radio-button checked value="Free">Free</mat-radio-button>
+                &nbsp;
+                <mat-radio-button  value="Express">Express</mat-radio-button>
+              </mat-radio-group>
+
+          </tab>
+        </tabset>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="sidenav">
+        <a (click)= "toProfile()">
+          <img src="../../assets/images/profile.png" height="50" width="50">
+          My Profile
+        </a>
+        <hr>
+        <a [routerLink]="['/home/orders']">
+          <img src="../../assets/images/orders.png" height="50" width="50">
+          My Orders
+        </a>
+        <hr>
+        <a href="Notification.html">
+          <img src="../../assets/images/notification.png" height="50" width="50">
+          My Notifications
+        </a>
+        <hr>
+        <a href="Ewallet.html">
+          <img src="../../assets/images/ewallet.png" height="50" width="50">
+          My EWallet
+        </a>
+        <hr>
+        <a routerLink="/home/loyalty_point" routerLinkActive="active">
+          <img src="../../assets/images/rewards.png" height="50" width="50">
+          My Rewards
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

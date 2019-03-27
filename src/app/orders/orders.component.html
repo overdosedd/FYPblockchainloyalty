@@ -1,0 +1,213 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-9">
+      <div>
+        <h2>
+          <img src="assets/images/orders.png" height="30" width="30">
+          MY ORDERS
+        </h2>
+      </div>
+      <hr>
+      <div class="container-fluid" style="margin-top: 5%;">
+        <mat-tab-group>
+          <mat-tab label="In progress">
+            <div class="container-table-cart pos-relative">
+              <div class="wrap-table-shopping-cart bgwhite">
+                <table class="table-shopping-cart">
+                  <tbody>
+                    <tr class="table-head">
+                      <th>Product No.</th>
+                      <th></th>
+                      <th *ngFor="let col of columns">{{col.name}}</th>
+                      <th>Date</th>
+                      <th>Status</th>
+                      <th>Action</th>
+
+                      <!-- <th>Action</th> -->
+
+                    </tr>
+                    <tr class="table-row" *ngFor="let prod of this.orderDetail[0].products[0].cartproduct">
+                      <td *ngIf="this.orderDetail[0].status === 'Delivering'">
+                        <a href="#"> # {{prod.product.id}}</a>
+                      </td>
+                      <td *ngIf="this.orderDetail[0].status === 'Delivering'">
+                        <div class="cart-img-product b-rad-4 o-f-hidden">
+                          <img src={{prod.product.img[0]}}>
+                        </div>
+                      </td>
+                      <td style="font-size: 20px" *ngIf="this.orderDetail[0].status === 'Delivering'"><strong>{{prod.product.title}}</strong>
+
+                        <div *ngFor="let item of prod.product.option">( {{item.title}} : {{item.selected}} ) </div>
+                      </td>
+                      <td id="price" *ngIf="this.orderDetail[0].status === 'Delivering'">$ {{prod.product.price}}</td>
+                      <td *ngIf="this.orderDetail[0].status === 'Delivering'">  {{prod.product.quantity}}</td>
+                      <td id="date" *ngIf="this.orderDetail[0].status === 'Delivering'">{{this.orderDetail[0].date | date: 'long'}}</td>
+                      <td id="status" *ngIf="this.orderDetail[0].status === 'Delivering'" class="text-primary">{{this.orderDetail[0].status}}</td>
+                      <td *ngIf="this.orderDetail[0].status === 'Delivering'">
+                        <button type="button" class="btn btn-primary btn-rounded" (click)="clickDeleteCartItem(prod.product.id)">
+                          Order Details
+                        </button>
+
+
+                      </td>
+
+                      <!-- <button>HI</button> -->
+
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+          </mat-tab>
+          <mat-tab label="Delivered">
+            <div class="container-table-cart pos-relative">
+              <div class="wrap-table-shopping-cart bgwhite">
+                <table class="table-shopping-cart">
+                  <tbody>
+                    <tr class="table-head">
+                      <th>Product No.</th>
+                      <th></th>
+                      <th *ngFor="let col of columns">{{col.name}}</th>
+                      <th>Date</th>
+                      <th>Status</th>
+                      <th>Action</th>
+
+                      <!-- <th>Action</th> -->
+
+                    </tr>
+                    <tr class="table-row" *ngFor="let prod of this.orderDetail[0].products[0].cartproduct">
+                      <td *ngIf="this.orderDetail[0].status === 'Delivered'">
+                        <a href="#"> # {{prod.product.id}}</a>
+                      </td>
+                      <td *ngIf="this.orderDetail[0].status === 'Delivered'">
+                        <div class="cart-img-product b-rad-4 o-f-hidden">
+                          <img src={{prod.product.img[0]}}>
+                        </div>
+                      </td>
+                      <td style="font-size: 20px" *ngIf="this.orderDetail[0].status === 'Delivered'"><strong>{{prod.product.title}}</strong>
+
+                        <div *ngFor="let item of prod.product.option">( {{item.title}} : {{item.selected}} ) </div>
+                      </td>
+                      <td id="price" *ngIf="this.orderDetail[0].status === 'Delivered'">$ {{prod.product.price}}</td>
+                      <td *ngIf="this.orderDetail[0].status === 'Delivered'">  {{prod.product.quantity}}</td>
+                      <td id="date" *ngIf="this.orderDetail[0].status === 'Delivered'">{{this.orderDetail[0].date | date: 'long'}}</td>
+                      <td id="status" *ngIf="this.orderDetail[0].status === 'Delivered'" class="text-success">{{this.orderDetail[0].status}}</td>
+                      <td *ngIf="this.orderDetail[0].status === 'Delivered'">
+                        <button type="button" class="btn btn-primary btn-rounded" (click)="clickDeleteCartItem(prod.product.id)">
+                          Order Details
+                        </button>
+
+
+                      </td>
+
+                      <!-- <button>HI</button> -->
+
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="Cancelled">
+            <div class="container-table-cart pos-relative">
+              <div class="wrap-table-shopping-cart bgwhite">
+                <table class="table-shopping-cart">
+                  <tbody>
+                    <tr class="table-head">
+                      <th>Product No.</th>
+                      <th></th>
+                      <th *ngFor="let col of columns">{{col.name}}</th>
+                      <th>Date</th>
+                      <th>Status</th>
+                      <th>Action</th>
+
+                      <!-- <th>Action</th> -->
+
+                    </tr>
+                    <tr class="table-row" *ngFor="let prod of this.orderDetail[0].products[0].cartproduct">
+                      <td *ngIf="this.orderDetail[0].status === 'Cancelled'">
+                        <a href="#"> # {{prod.product.id}}</a>
+                      </td>
+                      <td *ngIf="this.orderDetail[0].status === 'Cancelled'">
+                        <div class="cart-img-product b-rad-4 o-f-hidden">
+                          <img src={{prod.product.img[0]}}>
+                        </div>
+                      </td>
+                      <td style="font-size: 20px" *ngIf="this.orderDetail[0].status === 'Cancelled'"><strong>{{prod.product.title}}</strong>
+
+                        <div *ngFor="let item of prod.product.option">( {{item.title}} : {{item.selected}} ) </div>
+                      </td>
+                      <td id="price" *ngIf="this.orderDetail[0].status === 'Cancelled'">$ {{prod.product.price}}</td> 
+                      <td *ngIf="this.orderDetail[0].status === 'Cancelled'">  {{prod.product.quantity}}</td>
+                      <td id="date" *ngIf="this.orderDetail[0].status === 'Cancelled'">{{this.orderDetail[0].date | date: 'long'}}</td>
+                      <td id="status" *ngIf="this.orderDetail[0].status === 'Cancelled'" class="text-warning">{{this.orderDetail[0].status}}</td>
+                      <td *ngIf="this.orderDetail[0].status === 'Cancelled'">
+                        <button type="button" class="btn btn-danger btn-rounded" (click)="clickDeleteCartItem(prod.product.id)">
+                          Delete
+                        </button>
+
+                        <button type="button" class="btn btn-success btn-rounded" (click)="clickDeleteCartItem(prod.product.id)">
+                          Add to Cart
+                        </button>
+
+
+                      </td>
+
+                      <!-- <button>HI</button> -->
+
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- //side nav column// -->
+
+    <div class="col-3">
+      <div class="sidenav">
+        <a (click)= "toProfile()">
+          <img src="../../assets/images/profile.png" height="50" width="50">
+          My Profile
+        </a>
+        <hr>
+        <a [routerLink]="['/home/orders',this.orderDetail[0].userId]">
+          <img src="../../assets/images/orders.png" height="50" width="50">
+          My Orders
+        </a>
+        <hr>
+        <a href="Notification.html">
+          <img src="../../assets/images/notification.png" height="50" width="50">
+          My Notifications
+        </a>
+        <hr>
+        <a href="Ewallet.html">
+          <img src="../../assets/images/ewallet.png" height="50" width="50">
+          My EWallet
+        </a>
+        <hr>
+        <a routerLink="/home/loyalty_point" routerLinkActive="active">
+          <img src="../../assets/images/rewards.png" height="50" width="50">
+          My Rewards
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- --------- -->

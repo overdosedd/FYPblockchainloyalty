@@ -1,0 +1,3284 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "tom",
+      "password": "tom1234567",
+      "email": "tom@email.com",
+      "firstName": "Tom",
+      "lastName": "Nielsen",
+      "gender": "Male",
+      "dob": "1991-01-01",
+      "defaultBillingAddress": 1,
+      "defaultShippingAddress": 1,
+      "keys": {
+        "publicKey": "2qp4QFkyuRRFo8bseGFby1fEew81ztpigLWFdGswq2cK",
+        "privateKey": "8wbua1RpsFiwyzdHYRsHVRPVqA5AWs9cambZJt5Zuhqc"
+      }
+    },
+    {
+      "id": 2,
+      "username": "dick",
+      "password": "dick12345",
+      "email": "dick@email.com",
+      "firstName": "Dick",
+      "lastName": "Thompson",
+      "gender": "Male",
+      "dob": "1991-01-01",
+      "defaultBillingAddress": 3,
+      "defaultShippingAddress": 3,
+      "keys": {
+        "publicKey": "BPcvGEeG5u8U2RPNww2X5QhMnJRQ7vX2JqD7yY55PQyY",
+        "privateKey": "6t9DK7eb2azS62skzG7WttK4LErBZNwobRMWmBTHUrVv"
+      }
+    },
+    {
+      "id": 3,
+      "username": "halimin",
+      "password": "halimin123456",
+      "email": "harry@email.com",
+      "firstName": "Harry",
+      "lastName": "Spears",
+      "gender": "Male",
+      "dob": "1991-01-01",
+      "defaultBillingAddress": 5,
+      "defaultShippingAddress": 5,
+      "keys": {
+        "publicKey": "632DbV3U3SBsUstX6Kz8LLvQiyQcJyJg14MWUgoGyLbW",
+        "privateKey": "8wbua1RpsFiwyzdHYRsHVRPVqA5AWs9cambZJt5Zuhqc"
+      }
+    },
+    {
+      "id": 5,
+      "username": "",
+      "password": "s9323312c",
+      "email": "halimin87@gmail.com",
+      "firstName": "Halimin",
+      "lastName": "Hashim",
+      "gender": "",
+      "dob": "",
+      "defaultBillingAddress": null,
+      "defaultShippingAddress": null,
+      "keys": {
+        "publicKey": "Hi5fjz8WSqPRChd9sPwX7wD8ZWV61M7VUSG3yiwyYigH",
+        "privateKey": "GUQ6Vs8fHc1FBzneBJTigtiu3bHnSFQu4jnzLD22DWBn"
+      }
+    },
+    {
+      "id": 6,
+      "username": "",
+      "password": "passweord123",
+      "email": "yihan@gmail.com",
+      "firstName": "Yi Han",
+      "lastName": "Lim",
+      "gender": "",
+      "dob": "",
+      "defaultBillingAddress": null,
+      "defaultShippingAddress": null,
+      "keys": {
+        "publicKey": "2FJD3AkByhtggmJ9TGV2QtPKWhtiyxa11NnHWnnmaVpd",
+        "privateKey": "FNYzwQMXicaN38H2YBVaMWMAXSHaqTZmYJuF7tq9zyKq"
+      }
+    },
+    {
+      "username": "yihan1",
+      "email": "yihan@email.com",
+      "password": "12345678",
+      "firstName": "han",
+      "lastName": "yihan",
+      "dob": "",
+      "gender": "",
+      "defaultBillingAddress": 0,
+      "defaultShippingAddress": 0,
+      "key": {
+        "publicKey": "8t2GKyMq2a6XErt491LjfXyYfNAowYKb6vW8oc4289vp",
+        "privateKey": "FkiyqVTzTtyWMcDdLKYmPhZv9aBGePSMbAtqxFeNVjXS"
+      },
+      "id": 7
+    },
+    {
+      "username": "yihan12",
+      "email": "yihan12@email.com",
+      "password": "12345678",
+      "firstName": "yihan",
+      "lastName": "lim",
+      "dob": "",
+      "gender": "",
+      "defaultBillingAddress": 0,
+      "defaultShippingAddress": 0,
+      "key": {
+        "publicKey": "CvgYohHNKZbggD9gyujhpofUSgpWLA6gJ3ZJkx4AwohN",
+        "privateKey": "8wJsDkGkUzm3de9ptxnF2F5ERgBzKLdYymPxEM4hJua1"
+      },
+      "id": 8
+    },
+    {
+      "username": "yihan1",
+      "email": "limyihan12@email.com",
+      "password": "12345678",
+      "firstName": "yihan",
+      "lastName": "lim",
+      "dob": "",
+      "gender": "",
+      "defaultBillingAddress": 0,
+      "defaultShippingAddress": 0,
+      "key": {
+        "publicKey": "BAMWaHQMbQYaBxpHf4ZtibSqgVt2MzAr7oADJ527MEUY",
+        "privateKey": "DbMiiag3TYSZG6T6129cLkx6WzjWyeeg2V95gWK6kzxs"
+      },
+      "id": 9
+    },
+    {
+      "username": "yihan1",
+      "email": "yihan12@email.com",
+      "password": "12345678",
+      "firstName": "yihan",
+      "lastName": "dan",
+      "dob": "",
+      "gender": "",
+      "defaultBillingAddress": 0,
+      "defaultShippingAddress": 0,
+      "key": {
+        "publicKey": "2cUUoNBHC8v5kbqHWuZKYRAFt6frnoWXfyCRjxoibAWT",
+        "privateKey": "HG2H535NwjwiQsjae94mxHQEWRdt9UQCEbGqMEdMAk2Q"
+      },
+      "id": 10
+    },
+    {
+      "username": "Nigel123",
+      "email": "nigel123@hotmail.com",
+      "password": "Trollee123",
+      "firstName": "Nigel",
+      "lastName": "Trollee",
+      "dob": "",
+      "gender": "",
+      "defaultBillingAddress": 0,
+      "defaultShippingAddress": 0,
+      "key": {
+        "publicKey": "BQ1MzieEDJ984SnRp6JywyuwtZcc1ZeeTdywyKFiWCNn",
+        "privateKey": "KP4fXun8C9CSKXDoBq2cFMDfUGsmKHRQLJvbKutXwvD"
+      },
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "img": [
+        "assets/images/products/a4.jpg",
+        "assets/images/products/a5.jpg",
+        "assets/images/products/a6.jpg"
+      ],
+      "title": "Iphone9",
+      "price": 1200,
+      "rating": 4,
+      "originalprice": 1500,
+      "tag": "assets/images/new.png",
+      "id": 3,
+      "categoryId": 1,
+      "make": "Google",
+      "quantity": 1,
+      "confirm": true,
+      "availability": [
+        "Available"
+      ],
+      "option": [
+        {
+          "title": "Storage Size",
+          "selected": "64 GB",
+          "type": [
+            {
+              "value": "64 GB"
+            },
+            {
+              "value": "128 GB"
+            }
+          ]
+        },
+        {
+          "title": "Colour",
+          "selected": "Clearly White",
+          "type": [
+            {
+              "value": "Clearly White"
+            },
+            {
+              "value": "Just Black"
+            },
+            {
+              "value": "Not Pink"
+            }
+          ]
+        }
+      ],
+      "specs": [
+        {
+          "type": "Brand",
+          "value": "Apple"
+        },
+        {
+          "type": "Ram",
+          "value": "3GB"
+        },
+        {
+          "type": "Phone Type",
+          "value": "Smartphone"
+        },
+        {
+          "type": "Battery Capacity",
+          "value": "2000 - 2999 mAh"
+        },
+        {
+          "type": "Resolution",
+          "value": "HD"
+        },
+        {
+          "type": "Camera Back (Megapixels)",
+          "value": "11-15MP"
+        },
+        {
+          "type": "Video Resolution",
+          "value": "1080p"
+        },
+        {
+          "type": "Screen Size (inches)",
+          "value": "5.5"
+        },
+        {
+          "type": "What’s in the box\t",
+          "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+        },
+        {
+          "type": "Operating System\t",
+          "value": "iOS"
+        },
+        {
+          "type": "Type of battery",
+          "value": "Built-in Rechargeable Battery"
+        },
+        {
+          "type": "Condition",
+          "value": "New"
+        },
+        {
+          "type": "Camera Front (Megapixels)",
+          "value": "7 MP and up"
+        },
+        {
+          "type": "Screen Type",
+          "value": "IPS LCD"
+        },
+        {
+          "type": "Processor Type",
+          "value": "Hexa-core"
+        }
+      ],
+      "description": [
+        "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+        "Instead of pressing a button, a single swipe takes you home from anywhere",
+        "Your face is now your password",
+        "A more advanced 12MP camera gives you clear and beautiful pictures",
+        "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+      ]
+    },
+    {
+      "img": [
+        "assets/images/products/a4.jpg",
+        "assets/images/products/a5.jpg",
+        "assets/images/products/a6.jpg"
+      ],
+      "price": 300,
+      "title": "Iphone9",
+      "tag": "assets/images/new.png",
+      "originalprice": 500,
+      "rating": 5,
+      "id": 4,
+      "categoryId": 1,
+      "make": "OnePlus",
+      "quantity": 1,
+      "confirm": true,
+      "availability": [
+        "Available"
+      ],
+      "option": [
+        {
+          "title": "Colour",
+          "selected": "Thunder Purple",
+          "type": [
+            {
+              "value": "Thunder Purple"
+            },
+            {
+              "value": "Mirror Black"
+            },
+            {
+              "value": "Midnight Black"
+            }
+          ]
+        }
+      ],
+      "specs": [
+        {
+          "type": "Brand",
+          "value": "Apple"
+        },
+        {
+          "type": "Ram",
+          "value": "3GB"
+        },
+        {
+          "type": "Phone Type",
+          "value": "Smartphone"
+        },
+        {
+          "type": "Battery Capacity",
+          "value": "2000 - 2999 mAh"
+        },
+        {
+          "type": "Resolution",
+          "value": "HD"
+        },
+        {
+          "type": "Camera Back (Megapixels)",
+          "value": "11-15MP"
+        },
+        {
+          "type": "Video Resolution",
+          "value": "1080p"
+        },
+        {
+          "type": "Screen Size (inches)",
+          "value": "5.5"
+        },
+        {
+          "type": "What’s in the box\t",
+          "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+        },
+        {
+          "type": "Operating System\t",
+          "value": "iOS"
+        },
+        {
+          "type": "Type of battery",
+          "value": "Built-in Rechargeable Battery"
+        },
+        {
+          "type": "Condition",
+          "value": "New"
+        },
+        {
+          "type": "Camera Front (Megapixels)",
+          "value": "7 MP and up"
+        },
+        {
+          "type": "Screen Type",
+          "value": "IPS LCD"
+        },
+        {
+          "type": "Processor Type",
+          "value": "Hexa-core"
+        }
+      ],
+      "description": [
+        "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+        "Instead of pressing a button, a single swipe takes you home from anywhere",
+        "Your face is now your password",
+        "A more advanced 12MP camera gives you clear and beautiful pictures",
+        "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+      ]
+    },
+    {
+      "img": [
+        "assets/images/products/a7.jpg",
+        "assets/images/products/a8.jpg",
+        "assets/images/products/a9.jpg"
+      ],
+      "title": "Iphone8",
+      "price": 700,
+      "rating": 4,
+      "id": 2,
+      "originalprice": 1000,
+      "tag": "assets/images/new.png",
+      "categoryId": 2,
+      "make": "Xiaomi",
+      "quantity": 1,
+      "confirm": true,
+      "availability": [
+        "Available"
+      ],
+      "option": [
+        {
+          "title": "Colour",
+          "selected": "Graphite Black",
+          "type": [
+            {
+              "value": "Graphite Black"
+            },
+            {
+              "value": "Steel Blue"
+            },
+            {
+              "value": "Rosso Red"
+            },
+            {
+              "value": "Armored Edition with Kevlar"
+            }
+          ]
+        }
+      ],
+      "specs": [
+        {
+          "type": "Brand",
+          "value": "Apple"
+        },
+        {
+          "type": "Ram",
+          "value": "3GB"
+        },
+        {
+          "type": "Phone Type",
+          "value": "Smartphone"
+        },
+        {
+          "type": "Battery Capacity",
+          "value": "2000 - 2999 mAh"
+        },
+        {
+          "type": "Resolution",
+          "value": "HD"
+        },
+        {
+          "type": "Camera Back (Megapixels)",
+          "value": "11-15MP"
+        },
+        {
+          "type": "Video Resolution",
+          "value": "1080p"
+        },
+        {
+          "type": "Screen Size (inches)",
+          "value": "5.5"
+        },
+        {
+          "type": "What’s in the box\t",
+          "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+        },
+        {
+          "type": "Operating System\t",
+          "value": "iOS"
+        },
+        {
+          "type": "Type of battery",
+          "value": "Built-in Rechargeable Battery"
+        },
+        {
+          "type": "Condition",
+          "value": "New"
+        },
+        {
+          "type": "Camera Front (Megapixels)",
+          "value": "7 MP and up"
+        },
+        {
+          "type": "Screen Type",
+          "value": "IPS LCD"
+        },
+        {
+          "type": "Processor Type",
+          "value": "Hexa-core"
+        }
+      ],
+      "description": [
+        "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+        "Instead of pressing a button, a single swipe takes you home from anywhere",
+        "Your face is now your password",
+        "A more advanced 12MP camera gives you clear and beautiful pictures",
+        "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Electronics",
+      "id": 1,
+      "submenu": [
+        {
+          "subname": "Laptop",
+          "link": "laptop.html"
+        },
+        {
+          "subname": "Phone",
+          "link": "phone.html"
+        }
+      ]
+    },
+    {
+      "name": "Fashion",
+      "id": 2,
+      "submenu": [
+        {
+          "subname": "Clothes",
+          "link": "clothes.html"
+        },
+        {
+          "subname": "Shoes",
+          "link": "shoes.html"
+        }
+      ]
+    },
+    {
+      "name": "Home and Kitchen",
+      "id": 3,
+      "submenu": [
+        {
+          "subname": "Furniture",
+          "link": "furniture.html"
+        },
+        {
+          "subname": "Chairs",
+          "link": "chairs.html"
+        }
+      ]
+    },
+    {
+      "name": "Beauty",
+      "id": 4,
+      "submenu": [
+        {
+          "subname": "Lipstick",
+          "link": "lipstick.html"
+        },
+        {
+          "subname": "Makeup",
+          "link": "makeup.html"
+        }
+      ]
+    },
+    {
+      "name": "Baby",
+      "id": 5,
+      "submenu": [
+        {
+          "subname": "Diapers",
+          "link": "diapers.html"
+        },
+        {
+          "subname": "Milk",
+          "link": "milk.html"
+        }
+      ]
+    }
+  ],
+  "addresses": [
+    {
+      "fullName": "Tommy",
+      "streetAddress1": "Tommy address 222",
+      "streetAddress2": "#22-222",
+      "state": "Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "zipCode": "11111",
+      "phoneNumber": "111111",
+      "default": "Yes",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "fullName": "Tommy",
+      "streetAddress1": "Tommy address 222",
+      "streetAddress2": "#22-222",
+      "state": "Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "zipCode": "22222",
+      "phoneNumber": "2222222",
+      "default": "No",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "country": "DickCountry",
+      "fullName": "Dick Thompson",
+      "streetAddress1": "Block 111 Dickville Street 11",
+      "streetAddress2": "#11-11",
+      "city": "DickCity",
+      "state": "DickState",
+      "zipCode": "111111",
+      "phoneNumber": "11111111",
+      "default": "No"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "country": "DickCountry",
+      "fullName": "Dick Thompson",
+      "streetAddress1": "Block 222 Dickville Street 22",
+      "streetAddress2": "#22-22",
+      "city": "DickCity",
+      "state": "DickState",
+      "zipCode": "222222",
+      "phoneNumber": "22222222",
+      "default": "Yes"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "country": "HarryCountry",
+      "fullName": "Harry Spears",
+      "streetAddress1": "Block 111 Harryville Street 11",
+      "streetAddress2": "#11-11",
+      "city": "HarryCity",
+      "state": "HarryState",
+      "zipCode": "111111",
+      "phoneNumber": "11111111",
+      "default": "Yes"
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "country": "HarryCountry",
+      "fullName": "Harry Spears",
+      "streetAddress1": "Block 222 Harryville Street 22",
+      "streetAddress2": "#22-22",
+      "city": "HarryCity",
+      "state": "HarryState",
+      "zipCode": "222222",
+      "phoneNumber": "22222222",
+      "default": "No"
+    },
+    {
+      "fullName": "han",
+      "streetAddress1": "493D TAMPINES STREET 43",
+      "streetAddress2": "#08-322",
+      "state": "Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "zipCode": "523493",
+      "phoneNumber": "91132222",
+      "default": "Yes",
+      "userId": 7,
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "userId": 7,
+      "date": 1552243670752,
+      "status": "Delivering",
+      "products": [
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 5,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 1
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 5,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 2
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 5,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 7,
+      "date": 1552470482336,
+      "status": "Delivering",
+      "products": [
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 14
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 7,
+      "date": 1552830120461,
+      "status": "Delivering",
+      "products": [
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 4,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "128 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "date": 1552913922985,
+      "status": "Delivering",
+      "products": [
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 4,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "128 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 1
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 4,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "128 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            },
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 5,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "128 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Just Black",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 2
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "date": 1553499488645,
+      "status": "Delivering",
+      "products": [
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 1
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 2
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 7,
+      "date": 1553680770591,
+      "status": "Delivering",
+      "products": [
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 1
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 2
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 3
+        },
+        {
+          "cartproduct": [
+            {
+              "customer_id": 7,
+              "product": {
+                "img": [
+                  "assets/images/products/a4.jpg",
+                  "assets/images/products/a5.jpg",
+                  "assets/images/products/a6.jpg"
+                ],
+                "title": "Iphone9",
+                "price": 1200,
+                "rating": 4,
+                "originalprice": 1500,
+                "tag": "assets/images/new.png",
+                "id": 3,
+                "categoryId": 1,
+                "make": "Google",
+                "quantity": 1,
+                "confirm": true,
+                "availability": [
+                  "Available"
+                ],
+                "option": [
+                  {
+                    "title": "Storage Size",
+                    "selected": "64 GB",
+                    "type": [
+                      {
+                        "value": "64 GB"
+                      },
+                      {
+                        "value": "128 GB"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Colour",
+                    "selected": "Clearly White",
+                    "type": [
+                      {
+                        "value": "Clearly White"
+                      },
+                      {
+                        "value": "Just Black"
+                      },
+                      {
+                        "value": "Not Pink"
+                      }
+                    ]
+                  }
+                ],
+                "specs": [
+                  {
+                    "type": "Brand",
+                    "value": "Apple"
+                  },
+                  {
+                    "type": "Ram",
+                    "value": "3GB"
+                  },
+                  {
+                    "type": "Phone Type",
+                    "value": "Smartphone"
+                  },
+                  {
+                    "type": "Battery Capacity",
+                    "value": "2000 - 2999 mAh"
+                  },
+                  {
+                    "type": "Resolution",
+                    "value": "HD"
+                  },
+                  {
+                    "type": "Camera Back (Megapixels)",
+                    "value": "11-15MP"
+                  },
+                  {
+                    "type": "Video Resolution",
+                    "value": "1080p"
+                  },
+                  {
+                    "type": "Screen Size (inches)",
+                    "value": "5.5"
+                  },
+                  {
+                    "type": "What’s in the box\t",
+                    "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+                  },
+                  {
+                    "type": "Operating System\t",
+                    "value": "iOS"
+                  },
+                  {
+                    "type": "Type of battery",
+                    "value": "Built-in Rechargeable Battery"
+                  },
+                  {
+                    "type": "Condition",
+                    "value": "New"
+                  },
+                  {
+                    "type": "Camera Front (Megapixels)",
+                    "value": "7 MP and up"
+                  },
+                  {
+                    "type": "Screen Type",
+                    "value": "IPS LCD"
+                  },
+                  {
+                    "type": "Processor Type",
+                    "value": "Hexa-core"
+                  }
+                ],
+                "description": [
+                  "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+                  "Instead of pressing a button, a single swipe takes you home from anywhere",
+                  "Your face is now your password",
+                  "A more advanced 12MP camera gives you clear and beautiful pictures",
+                  "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+                ]
+              },
+              "id": 1
+            }
+          ],
+          "paymentoption": [],
+          "address": [],
+          "id": 4
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "checkout": [
+    {
+      "cartproduct": [
+        {
+          "customer_id": 7,
+          "product": {
+            "img": [
+              "assets/images/products/a4.jpg",
+              "assets/images/products/a5.jpg",
+              "assets/images/products/a6.jpg"
+            ],
+            "title": "Iphone9",
+            "price": 1200,
+            "rating": 4,
+            "originalprice": 1500,
+            "tag": "assets/images/new.png",
+            "id": 3,
+            "categoryId": 1,
+            "make": "Google",
+            "quantity": 1,
+            "confirm": true,
+            "availability": [
+              "Available"
+            ],
+            "option": [
+              {
+                "title": "Storage Size",
+                "selected": "64 GB",
+                "type": [
+                  {
+                    "value": "64 GB"
+                  },
+                  {
+                    "value": "128 GB"
+                  }
+                ]
+              },
+              {
+                "title": "Colour",
+                "selected": "Clearly White",
+                "type": [
+                  {
+                    "value": "Clearly White"
+                  },
+                  {
+                    "value": "Just Black"
+                  },
+                  {
+                    "value": "Not Pink"
+                  }
+                ]
+              }
+            ],
+            "specs": [
+              {
+                "type": "Brand",
+                "value": "Apple"
+              },
+              {
+                "type": "Ram",
+                "value": "3GB"
+              },
+              {
+                "type": "Phone Type",
+                "value": "Smartphone"
+              },
+              {
+                "type": "Battery Capacity",
+                "value": "2000 - 2999 mAh"
+              },
+              {
+                "type": "Resolution",
+                "value": "HD"
+              },
+              {
+                "type": "Camera Back (Megapixels)",
+                "value": "11-15MP"
+              },
+              {
+                "type": "Video Resolution",
+                "value": "1080p"
+              },
+              {
+                "type": "Screen Size (inches)",
+                "value": "5.5"
+              },
+              {
+                "type": "What’s in the box\t",
+                "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+              },
+              {
+                "type": "Operating System\t",
+                "value": "iOS"
+              },
+              {
+                "type": "Type of battery",
+                "value": "Built-in Rechargeable Battery"
+              },
+              {
+                "type": "Condition",
+                "value": "New"
+              },
+              {
+                "type": "Camera Front (Megapixels)",
+                "value": "7 MP and up"
+              },
+              {
+                "type": "Screen Type",
+                "value": "IPS LCD"
+              },
+              {
+                "type": "Processor Type",
+                "value": "Hexa-core"
+              }
+            ],
+            "description": [
+              "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+              "Instead of pressing a button, a single swipe takes you home from anywhere",
+              "Your face is now your password",
+              "A more advanced 12MP camera gives you clear and beautiful pictures",
+              "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+            ]
+          },
+          "id": 1
+        }
+      ],
+      "paymentoption": [],
+      "address": [],
+      "id": 1
+    },
+    {
+      "cartproduct": [
+        {
+          "customer_id": 7,
+          "product": {
+            "img": [
+              "assets/images/products/a4.jpg",
+              "assets/images/products/a5.jpg",
+              "assets/images/products/a6.jpg"
+            ],
+            "title": "Iphone9",
+            "price": 1200,
+            "rating": 4,
+            "originalprice": 1500,
+            "tag": "assets/images/new.png",
+            "id": 3,
+            "categoryId": 1,
+            "make": "Google",
+            "quantity": 1,
+            "confirm": true,
+            "availability": [
+              "Available"
+            ],
+            "option": [
+              {
+                "title": "Storage Size",
+                "selected": "64 GB",
+                "type": [
+                  {
+                    "value": "64 GB"
+                  },
+                  {
+                    "value": "128 GB"
+                  }
+                ]
+              },
+              {
+                "title": "Colour",
+                "selected": "Clearly White",
+                "type": [
+                  {
+                    "value": "Clearly White"
+                  },
+                  {
+                    "value": "Just Black"
+                  },
+                  {
+                    "value": "Not Pink"
+                  }
+                ]
+              }
+            ],
+            "specs": [
+              {
+                "type": "Brand",
+                "value": "Apple"
+              },
+              {
+                "type": "Ram",
+                "value": "3GB"
+              },
+              {
+                "type": "Phone Type",
+                "value": "Smartphone"
+              },
+              {
+                "type": "Battery Capacity",
+                "value": "2000 - 2999 mAh"
+              },
+              {
+                "type": "Resolution",
+                "value": "HD"
+              },
+              {
+                "type": "Camera Back (Megapixels)",
+                "value": "11-15MP"
+              },
+              {
+                "type": "Video Resolution",
+                "value": "1080p"
+              },
+              {
+                "type": "Screen Size (inches)",
+                "value": "5.5"
+              },
+              {
+                "type": "What’s in the box\t",
+                "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+              },
+              {
+                "type": "Operating System\t",
+                "value": "iOS"
+              },
+              {
+                "type": "Type of battery",
+                "value": "Built-in Rechargeable Battery"
+              },
+              {
+                "type": "Condition",
+                "value": "New"
+              },
+              {
+                "type": "Camera Front (Megapixels)",
+                "value": "7 MP and up"
+              },
+              {
+                "type": "Screen Type",
+                "value": "IPS LCD"
+              },
+              {
+                "type": "Processor Type",
+                "value": "Hexa-core"
+              }
+            ],
+            "description": [
+              "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+              "Instead of pressing a button, a single swipe takes you home from anywhere",
+              "Your face is now your password",
+              "A more advanced 12MP camera gives you clear and beautiful pictures",
+              "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+            ]
+          },
+          "id": 1
+        }
+      ],
+      "paymentoption": [],
+      "address": [],
+      "id": 2
+    },
+    {
+      "cartproduct": [
+        {
+          "customer_id": 7,
+          "product": {
+            "img": [
+              "assets/images/products/a4.jpg",
+              "assets/images/products/a5.jpg",
+              "assets/images/products/a6.jpg"
+            ],
+            "title": "Iphone9",
+            "price": 1200,
+            "rating": 4,
+            "originalprice": 1500,
+            "tag": "assets/images/new.png",
+            "id": 3,
+            "categoryId": 1,
+            "make": "Google",
+            "quantity": 1,
+            "confirm": true,
+            "availability": [
+              "Available"
+            ],
+            "option": [
+              {
+                "title": "Storage Size",
+                "selected": "64 GB",
+                "type": [
+                  {
+                    "value": "64 GB"
+                  },
+                  {
+                    "value": "128 GB"
+                  }
+                ]
+              },
+              {
+                "title": "Colour",
+                "selected": "Clearly White",
+                "type": [
+                  {
+                    "value": "Clearly White"
+                  },
+                  {
+                    "value": "Just Black"
+                  },
+                  {
+                    "value": "Not Pink"
+                  }
+                ]
+              }
+            ],
+            "specs": [
+              {
+                "type": "Brand",
+                "value": "Apple"
+              },
+              {
+                "type": "Ram",
+                "value": "3GB"
+              },
+              {
+                "type": "Phone Type",
+                "value": "Smartphone"
+              },
+              {
+                "type": "Battery Capacity",
+                "value": "2000 - 2999 mAh"
+              },
+              {
+                "type": "Resolution",
+                "value": "HD"
+              },
+              {
+                "type": "Camera Back (Megapixels)",
+                "value": "11-15MP"
+              },
+              {
+                "type": "Video Resolution",
+                "value": "1080p"
+              },
+              {
+                "type": "Screen Size (inches)",
+                "value": "5.5"
+              },
+              {
+                "type": "What’s in the box\t",
+                "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+              },
+              {
+                "type": "Operating System\t",
+                "value": "iOS"
+              },
+              {
+                "type": "Type of battery",
+                "value": "Built-in Rechargeable Battery"
+              },
+              {
+                "type": "Condition",
+                "value": "New"
+              },
+              {
+                "type": "Camera Front (Megapixels)",
+                "value": "7 MP and up"
+              },
+              {
+                "type": "Screen Type",
+                "value": "IPS LCD"
+              },
+              {
+                "type": "Processor Type",
+                "value": "Hexa-core"
+              }
+            ],
+            "description": [
+              "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+              "Instead of pressing a button, a single swipe takes you home from anywhere",
+              "Your face is now your password",
+              "A more advanced 12MP camera gives you clear and beautiful pictures",
+              "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+            ]
+          },
+          "id": 1
+        }
+      ],
+      "paymentoption": [],
+      "address": [],
+      "id": 3
+    },
+    {
+      "cartproduct": [
+        {
+          "customer_id": 7,
+          "product": {
+            "img": [
+              "assets/images/products/a4.jpg",
+              "assets/images/products/a5.jpg",
+              "assets/images/products/a6.jpg"
+            ],
+            "title": "Iphone9",
+            "price": 1200,
+            "rating": 4,
+            "originalprice": 1500,
+            "tag": "assets/images/new.png",
+            "id": 3,
+            "categoryId": 1,
+            "make": "Google",
+            "quantity": 1,
+            "confirm": true,
+            "availability": [
+              "Available"
+            ],
+            "option": [
+              {
+                "title": "Storage Size",
+                "selected": "64 GB",
+                "type": [
+                  {
+                    "value": "64 GB"
+                  },
+                  {
+                    "value": "128 GB"
+                  }
+                ]
+              },
+              {
+                "title": "Colour",
+                "selected": "Clearly White",
+                "type": [
+                  {
+                    "value": "Clearly White"
+                  },
+                  {
+                    "value": "Just Black"
+                  },
+                  {
+                    "value": "Not Pink"
+                  }
+                ]
+              }
+            ],
+            "specs": [
+              {
+                "type": "Brand",
+                "value": "Apple"
+              },
+              {
+                "type": "Ram",
+                "value": "3GB"
+              },
+              {
+                "type": "Phone Type",
+                "value": "Smartphone"
+              },
+              {
+                "type": "Battery Capacity",
+                "value": "2000 - 2999 mAh"
+              },
+              {
+                "type": "Resolution",
+                "value": "HD"
+              },
+              {
+                "type": "Camera Back (Megapixels)",
+                "value": "11-15MP"
+              },
+              {
+                "type": "Video Resolution",
+                "value": "1080p"
+              },
+              {
+                "type": "Screen Size (inches)",
+                "value": "5.5"
+              },
+              {
+                "type": "What’s in the box\t",
+                "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+              },
+              {
+                "type": "Operating System\t",
+                "value": "iOS"
+              },
+              {
+                "type": "Type of battery",
+                "value": "Built-in Rechargeable Battery"
+              },
+              {
+                "type": "Condition",
+                "value": "New"
+              },
+              {
+                "type": "Camera Front (Megapixels)",
+                "value": "7 MP and up"
+              },
+              {
+                "type": "Screen Type",
+                "value": "IPS LCD"
+              },
+              {
+                "type": "Processor Type",
+                "value": "Hexa-core"
+              }
+            ],
+            "description": [
+              "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+              "Instead of pressing a button, a single swipe takes you home from anywhere",
+              "Your face is now your password",
+              "A more advanced 12MP camera gives you clear and beautiful pictures",
+              "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+            ]
+          },
+          "id": 1
+        }
+      ],
+      "paymentoption": [],
+      "address": [],
+      "id": 4
+    }
+  ],
+  "carts": [
+    {
+      "customer_id": 7,
+      "product": {
+        "img": [
+          "assets/images/products/a4.jpg",
+          "assets/images/products/a5.jpg",
+          "assets/images/products/a6.jpg"
+        ],
+        "title": "Iphone9",
+        "price": 1200,
+        "rating": 4,
+        "originalprice": 1500,
+        "tag": "assets/images/new.png",
+        "id": 3,
+        "categoryId": 1,
+        "make": "Google",
+        "quantity": 1,
+        "confirm": true,
+        "availability": [
+          "Available"
+        ],
+        "option": [
+          {
+            "title": "Storage Size",
+            "selected": "64 GB",
+            "type": [
+              {
+                "value": "64 GB"
+              },
+              {
+                "value": "128 GB"
+              }
+            ]
+          },
+          {
+            "title": "Colour",
+            "selected": "Clearly White",
+            "type": [
+              {
+                "value": "Clearly White"
+              },
+              {
+                "value": "Just Black"
+              },
+              {
+                "value": "Not Pink"
+              }
+            ]
+          }
+        ],
+        "specs": [
+          {
+            "type": "Brand",
+            "value": "Apple"
+          },
+          {
+            "type": "Ram",
+            "value": "3GB"
+          },
+          {
+            "type": "Phone Type",
+            "value": "Smartphone"
+          },
+          {
+            "type": "Battery Capacity",
+            "value": "2000 - 2999 mAh"
+          },
+          {
+            "type": "Resolution",
+            "value": "HD"
+          },
+          {
+            "type": "Camera Back (Megapixels)",
+            "value": "11-15MP"
+          },
+          {
+            "type": "Video Resolution",
+            "value": "1080p"
+          },
+          {
+            "type": "Screen Size (inches)",
+            "value": "5.5"
+          },
+          {
+            "type": "What’s in the box\t",
+            "value": "1 x iPhone with iOS 11, 1 x EarPods with Lightning Connector, 1 x Lightning to 3.5mm Headphone Jack Adapter, 1 x Lightning to USB Cable, 1 x 5W USB Power Adapter, 1 x Documentation"
+          },
+          {
+            "type": "Operating System\t",
+            "value": "iOS"
+          },
+          {
+            "type": "Type of battery",
+            "value": "Built-in Rechargeable Battery"
+          },
+          {
+            "type": "Condition",
+            "value": "New"
+          },
+          {
+            "type": "Camera Front (Megapixels)",
+            "value": "7 MP and up"
+          },
+          {
+            "type": "Screen Type",
+            "value": "IPS LCD"
+          },
+          {
+            "type": "Processor Type",
+            "value": "Hexa-core"
+          }
+        ],
+        "description": [
+          "An all‑new 5.8‑inch Super Retina screen fills the hand and dazzles the eyes",
+          "Instead of pressing a button, a single swipe takes you home from anywhere",
+          "Your face is now your password",
+          "A more advanced 12MP camera gives you clear and beautiful pictures",
+          "Charge with wireless charging stations and mats in hotels, cafes, and airports around the world"
+        ]
+      },
+      "id": 1
+    }
+  ]
+}

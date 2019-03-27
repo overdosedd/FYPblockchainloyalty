@@ -1,0 +1,231 @@
+<!-- /carousel* -->
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+  <mdb-carousel-item *ngFor="let image of images">
+
+    <div class="view w-100">
+      <img class="d-block w-100" src={{image}} alt="All images" style="height: 80vh;">
+      <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+    </div>
+    <div class="carousel-caption">
+      <h3 class="h3-responsive"></h3>
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- ----------------------- -->
+
+<!-- // breadcrumb//
+<mdb-breadcrumb customClass="black-text indigo lighten-4"style="
+margin-left: 25%;
+width:  50%;
+background-color: white;
+">
+    <mdb-breadcrumb-item>
+      <mdb-icon icon="caret-right" class="mr-1"></mdb-icon> Home
+    </mdb-breadcrumb-item>
+    <mdb-breadcrumb-item>
+      <mdb-icon icon="caret-right" class="mr-1"></mdb-icon> Library
+    </mdb-breadcrumb-item>
+    <mdb-breadcrumb-item class="active">
+      <mdb-icon icon="caret-right" class="mr-1"></mdb-icon> Data
+    </mdb-breadcrumb-item>
+  </mdb-breadcrumb> -->
+<!-- =----------------------- -->
+<!-- // category menu bar// -->
+<div class="container-fluid" style=" margin-top: 3%;margin-left: 1%">
+  <div class="row">
+    <div class="col-3" style="border-style:inset; z-index: 201020202; display: block; ">
+      <div class="shop_sidebar_area" style="text-align: center;">
+
+        <!-- ##### Single Widget ##### -->
+        <div class="widget catagory mb-50">
+          <!-- Widget Title -->
+          <h6 class="widget-title mb-30">Catagories</h6>
+
+          <!-- Catagories -->
+          <div class="catagories-menu" *ngFor="let item of this.categoryDetails">
+            <ul id="menu-content2" class="menu-content collapse show">
+              <!-- Single Item -->
+              <li data-toggle="collapse" data-target="#clothing" style="cursor:pointer;">
+                <a>{{item.name}}</a>
+
+                <ul class="sub-menu collapse show">
+                  <li *ngFor="let sub of item.submenu">
+                    <a href={{sub.link}}>{{sub.subname}}</a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+
+
+            </ul>
+          </div>
+        </div>
+
+        <!-- ##### Single Widget ##### -->
+        <div class="widget price mb-50">
+          <!-- Widget Title -->
+          <h6 class="widget-title mb-30">Filter by</h6>
+          <!-- Widget Title 2 -->
+          <p class="widget-title2 mb-30">Price</p>
+
+          <ng5-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options" style="margin-left: -10%;width:50%; margin-bottom:8% "></ng5-slider>
+          <p>
+            Min Price:
+            <input type="number" step="{{options.step}}" [(ngModel)]="minValue" style="width: 50%">
+          </p>
+          <p>
+            MaxPrice:
+            <input type="number" step="{{options.step}}" [(ngModel)]="maxValue" style="width: 50%">
+          </p>
+        </div>
+
+        <!-- ##### Single Widget ##### -->
+        <div class="widget color mb-50">
+          <!-- Widget Title 2 -->
+          <p class="widget-title2 mb-30">Color</p>
+          <div class="widget-desc">
+            <ul class="d-flex">
+              <li *ngFor="let items of colors">
+                <a href="{{items.href}}" class={{items.color}}></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ##### Single Widget ##### -->
+        <div class="widget brands mb-50">
+          <!-- Widget Title 2 -->
+          <p class="widget-title2 mb-30">Brands</p>
+          <div class="widget-desc">
+            <ul>
+              <li *ngFor="let item of brands">
+                <a href={{item.href}}>{{item.name}}</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-8">
+      <!-- ------------------------ -->
+      <!-- //popular product -->
+
+      <!-- //product customer recently bought  // -->
+      <h3>Product Customer recently bought</h3>
+      <a class="pull-right" href="dailydeal.html" style="cursor: pointer;">
+        View more
+      </a>
+      <br />
+      <mdb-carousel [isControls]="false" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
+        [animation]="'slide'">
+        <mdb-carousel-item *ngFor="let card of this.productDetails;">
+          <div class="row align-items-start">
+            <div class="col-sm">
+              <mdb-card class="my-1">
+                <mdb-card-img [src]="card.tag"></mdb-card-img>
+                <mdb-card-img [src]="card.img[1]" alt="Card image cap" style="height:35vh;width: 50%; align-self: center"></mdb-card-img>
+                <mdb-card-body>
+                  <mdb-card-title>
+                    <h4>{{card.title}}</h4>
+                  </mdb-card-title>
+                  <p>$ {{card.price}}</p>
+                  <a (click)="clickView(card.id)" mdbBtn color="primary" class="waves-light" mdbWavesEffect>
+                    View
+                  </a>
+                </mdb-card-body>
+              </mdb-card>
+            </div>
+          </div>
+        </mdb-carousel-item>
+      </mdb-carousel>
+      <!-- //////////////////// -->
+
+      <!-- -------------------------- -->
+      <div>
+        Showing Selected Result. See all the results for
+        <a href="Product_Category/query=iphone.html" style=" color: blue; ">
+          Iphone
+        </a>
+      </div>
+
+      <!-- -------------------------- -->
+      <!-- -------card of items --------- -->
+      <!-- Section: Products v.3 -->
+      <section class="text-center pb-3 my-5">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-4" *ngFor="let item of this.productDetails">
+
+            <!-- Card -->
+            <mdb-card class="align-items-center">
+
+              <!-- Card image -->
+              <div class="view overlay waves-light" mdbWavesEffect>
+                <mdb-card-img style="cursor: pointer;" (click)="clickView(item.id)" src={{item.img[1]}} alt></mdb-card-img>
+                <a>
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <!-- Card image -->
+
+              <!-- Card content -->
+              <mdb-card-body class="text-center">
+                <!-- Category & Title -->
+                <a href=different-name.html class="grey-text">
+                  <h5>{{item.make}}</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a class="dark-grey-text" style="cursor: pointer;" (click)="clickView(item.id)">
+                      {{item.title}}
+                      <span class="badge badge-pill danger-color">{{item.badge}}</span>
+                    </a>
+                  </strong>
+                </h5>
+
+                <h4 class="font-weight-bold blue-text">
+                  <strong style="color: red">$ {{item.price}}</strong>
+                </h4>
+                <s>$ {{item.originalprice}}</s>
+
+                <!-- Add to Cart
+                <div class="add-to-cart-btn">
+                  <a class="btn essence-btn">
+                    Add to Cart
+                  </a>
+                </div> -->
+
+              </mdb-card-body>
+              <!-- Card content -->
+
+            </mdb-card>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!-- Section: Products v.3 -->
+
+      <!-- ---------------- -->
+      <!-- ---------------- -->
+
+      <div class="row" style="margin-left:35%">
+        <div class="col-xs-12 col-12">
+          <pagination [directionLinks]="showDirectionLinks" [totalItems]="55"></pagination>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

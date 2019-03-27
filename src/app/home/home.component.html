@@ -1,0 +1,1050 @@
+<!-- /carousel* -->
+<mdb-carousel
+    class="carousel slide carousel-fade"
+    [animation]="'fade'"
+>
+    <mdb-carousel-item *ngFor="let image of images">
+
+        <div class="view w-100">
+            <img
+                class="d-block w-100"
+                src={{image}}
+                alt="All images"
+                style="height: 80vh;"
+            >
+            <div
+                class="mask rgba-black-light waves-light"
+                mdbWavesEffect
+            ></div>
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive"></h3>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+<!-- ---------------- -->
+<!-- <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
+  [animation]="'slide'">
+  <mdb-carousel-item *ngFor="let item of slides; let i = index">
+    <div class="col-md-4" *ngFor="let card of item">
+      <mdb-card class="my-1">
+        <mdb-card-img [src]="card.images" alt="Card image cap"></mdb-card-img>
+        <mdb-card-body>
+          <mdb-card-title>
+            <h4>{{card.product}}</h4>
+          </mdb-card-title>
+          <p>{{card.price}}</p>
+          <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.view}}</a>
+        </mdb-card-body>
+      </mdb-card>
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel> -->
+
+<h3 style="margin-top:2%;">Daily Deals</h3>
+<a
+    class="pull-right"
+    href="dailydeals.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+<!-- //deal advertisement// -->
+<div
+    class="jsx-3461008014 mediaContainer"
+    style="margin-top:2%;"
+>
+    <img
+        src="https://k.nooncdn.com/cms/pages/20181105/17709979d3b627915762fa42325dbf8e/en_banner-01Top.jpg"
+        alt="/yellow-friday?f[is_fbn]=1"
+        class="jsx-1641423291"
+        style="
+  width: 100%;"
+    >
+</div>
+
+<!-- //top picks in mobile // -->
+<h3 style="margin-top:2%;">Top Picks in Mobiles</h3>
+<a
+    class="pull-right"
+    href="mobile.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides2; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+<!-- //////////////////// -->
+<!-- //electronics// -->
+<h3 style="margin-top:2%;">Top Picks in Electronics</h3>
+<a
+    class="pull-right"
+   [routerLink] = "['/home/electronics']"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides3; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- //image map // -->
+
+<div
+    class="imageMap"
+    style=" width: 100%"
+>
+    <img
+        usemap="#imgmap2017524144552"
+        src="http://offers-amazing.com/wp-content/uploads/2018/09/fashion-coupons.jpg"
+        width="2000"
+        height="1070"
+        alt="Back To It Tape Me Out"
+        style="display: block;width: 197%;margin-left: 1%;margin-top: 3%; height: 100vh;"
+        border="0"
+    >
+    <map
+        id="imgmap2017524144552"
+        name="imgmap2017524144552"
+    >
+        <area
+            shape="rect"
+            alt="Woman Fashion - Shop"
+            title="Woman Fashion - Shop"
+            coords="3,0,750,787"
+            href="/en/tmsg/category/clothing-1365455/mens-shorts-swimshorts-6565919?intcmpid=homepage_portrait1_shorts"
+        >
+        <area
+            shape="rect"
+            alt="Man Fashion - Shop"
+            title="Man Fashion - Shop"
+            coords="768,0,1519,796"
+            href="/en/tmsg/category/clothing-1365455/mens-t-shirts-vests-2179523?intcmpid=homepage_portrait2_t-shirts"
+        >
+        <area
+            shape="default"
+            nohref="true"
+            title="Back To It Tape Me Out"
+            alt="Back To It Tape Me Out"
+        >
+    </map>
+</div>
+
+<!-- ---------------- -->
+<!-- //top picks in women// -->
+
+<h3 style="margin-top:2%;">Top Picks in Women</h3>
+<a
+    class="pull-right"
+    href="women.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides4; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- ---------------- -->
+
+<!-- //top picks in men// -->
+
+<h3 style="margin-top:2%;">Top Picks in Men</h3>
+<a
+    class="pull-right"
+    href="men.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides5; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- ---------------- -->
+
+<!-- //image map watch -->
+<div
+    class="imageMap"
+    style=" width: 100%"
+>
+    <img
+        usemap="#imgmap2017524144553"
+        src="assets/images/products/watchesjewel.png"
+        width="2000"
+        height="1070"
+        alt="Back To It Tape Me Out"
+        style="display: block;width: 197%;margin-left: 1%;margin-top: 3%; height: 100vh;"
+        border="0"
+    >
+    <map
+        id="imgmap2017524144553"
+        name="imgmap2017524144553"
+    >
+        <area
+            shape="rect"
+            alt="Watches - Shop"
+            title="Watches - Shop"
+            coords="3,0,600,400"
+            href="/en/tmsg/category/clothing-1365455/mens-shorts-swimshorts-6565919?intcmpid=homepage_portrait1_shorts"
+        >
+        <area
+            shape="rect"
+            alt="Jewellery - Shop"
+            title="Jewellery - Shop"
+            coords="768,0,1519,796"
+            href="/en/tmsg/category/clothing-1365455/mens-t-shirts-vests-2179523?intcmpid=homepage_portrait2_t-shirts"
+        >
+        <area
+            shape="default"
+            nohref="true"
+            title="Back To It Tape Me Out"
+            alt="Back To It Tape Me Out"
+        >
+    </map>
+</div>
+
+<!-- ---------------- -->
+<!-- //home // -->
+<h3 style="margin-top:2%;">Top Picks in Home</h3>
+<a
+    class="pull-right"
+    href="home.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides6; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- ---------------- -->
+
+<!-- //kitchen // -->
+<h3 style="margin-top:2%;">Top Picks in Kitchen</h3>
+<a
+    class="pull-right"
+    href="kitchen.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides7; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>$ {{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- ---------------- -->
+<!-- //image map beauty/fragrance -->
+<div
+    class="imageMap"
+    style=" width: 100%"
+>
+    <img
+        usemap="#imgmap2017524144554"
+        src="assets/images/products/beauty.png"
+        width="2000"
+        height="1070"
+        alt="Back To It Tape Me Out"
+        style="display: block;width: 197%;margin-left: 1%;margin-top: 3%; height: 100vh;"
+        border="0"
+    >
+    <map
+        id="imgmap2017524144554"
+        name="imgmap2017524144554"
+    >
+        <area
+            shape="rect"
+            alt="Beauty - Shop"
+            title="Beauty - Shop"
+            coords="3,0,600,400"
+            href="/en/tmsg/category/clothing-1365455/mens-shorts-swimshorts-6565919?intcmpid=homepage_portrait1_shorts"
+        >
+        <area
+            shape="rect"
+            alt="Fragrance - Shop"
+            title="Fragrance - Shop"
+            coords="768,0,1519,796"
+            href="/en/tmsg/category/clothing-1365455/mens-t-shirts-vests-2179523?intcmpid=homepage_portrait2_t-shirts"
+        >
+        <area
+            shape="default"
+            nohref="true"
+            title="Back To It Tape Me Out"
+            alt="Back To It Tape Me Out"
+        >
+    </map>
+</div>
+
+<!-- ---------------- -->
+<!-- //shop by brands// -->
+<h3 style="margin-top:2%;">Top Picks in Brands</h3>
+<a
+    class="pull-right"
+    href="kitchen.html"
+>
+    View more
+</a>
+<!-- Brands TABS -->
+<div class="cms-row txtCenter" >
+    <div class="cms-full current cms-tab-content txtCenter" style="margin-left: 15%">
+        <div class="cms-full mtl cms-brand-placeholders">
+            <div class="lfloat cms-top-brands">
+                <div
+                    id="dy-cms-b1"
+                    style="width:322px;"
+                    data-dy-embedded-object="true"
+                >
+                    <div
+                        class="dy_unit dy_smart_object_227881 dyother dyMonitor"
+                        data-adid="smart_object_227881||2687|||"
+                        data-dy-exp-id="236673"
+                        data-dy-var-id="15728609"
+                        data-dy-ver-data="5741769::0:1541571730341:78620:78620:2:3:0"
+                        data-dy-att-method="0"
+                        data-dy-att-seq="78620"
+                    >
+                        <style type="text/css"></style>
+                        <div data-dy-rimps="true">
+                            <div class="lfloat cms-top-brands">
+                                <a
+                                    id="js-fb1-tracker1"
+                                    href="/women/jacqueline-de-yong/?csa=jacquelinedeyongaweighteen"
+                                    data-event-category="SG|DSK|MS|Women|Fashion-Brand-1"
+                                    data-event-label="bra|women|jacquelinedeyongaweighteen|all|na"
+                                >
+                                    <img
+                                        id="js-fb1-banner-tracker1"
+                                        src="https://static-sg.zacdn.com/cms/DY/Oct18/JDY-OCT18-W-B1.jpg"
+                                        style="margin-left: 46px;"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lfloat cms-spacer-3grid cms-top-brands">
+                <div
+                    id="dy-cms-b2"
+                    style="width:322px;"
+                    data-dy-embedded-object="true"
+                >
+                    <div
+                        class="dy_unit dy_smart_object_227883 dyother dyMonitor"
+                        data-adid="smart_object_227883||2687|||"
+                        data-dy-exp-id="236675"
+                        data-dy-var-id="15641427"
+                        data-dy-ver-data="5709742::0:1541571730345:78620:78620:2:3:0"
+                        data-dy-att-method="0"
+                        data-dy-att-seq="78620"
+                    >
+                        <style type="text/css"></style>
+                        <div data-dy-rimps="true">
+                            <div class="lfloat cms-top-brands">
+                                <a
+                                    id="js-fb2-tracker2"
+                                    href="/women/only-carmakoma/?csa=onlycarmakomaaweighteen"
+                                    data-event-category="SG|DSK|MS|Women|Fashion-Brand-2"
+                                    data-event-label="bra|women|onlycarmakomaaweighteen|all|na"
+                                >
+                                    <img
+                                        id="fb2-banner-tracker"
+                                        src="https://static-sg.zacdn.com/cms/DY/Oct18/ONLYCARMAKOMA-OCT18-W-B1.jpg"
+                                        style="margin-left: 400px;margin-top: -188px;"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lfloat cms-spacer-3grid cms-top-brands">
+                <div
+                    id="dy-cms-b3"
+                    style="width:322px;"
+                    data-dy-embedded-object="true"
+                >
+                    <div
+                        class="dy_unit dy_smart_object_227885 dyother dyMonitor"
+                        data-adid="smart_object_227885||2687|||"
+                        data-dy-exp-id="236677"
+                        data-dy-var-id="15728607"
+                        data-dy-ver-data="5741767::0:1541571730349:78620:78620:2:3:0"
+                        data-dy-att-method="0"
+                        data-dy-att-seq="78620"
+                    >
+                        <style type="text/css"></style>
+                        <div data-dy-rimps="true">
+                            <div class="lfloat cms-top-brands">
+                                <a
+                                    id="js-fb3-tracker3"
+                                    href="/women/veja/?csa=vejaaweighteen"
+                                    data-event-category="SG|DSK|MS|Women|Fashion-Brand-3"
+                                    data-event-label="bra|women|vejaaweighteen|all|na"
+                                >
+                                    <img
+                                        id="js-fb3-banner-tracker3"
+                                        src="https://static-sg.zacdn.com/cms/DY/Nov18/VEJA-NOV18-M-B1.jpg"
+                                        style="margin-left:750px; margin-top: -227px;"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cms-full mtm cms-brand-placeholders">
+            <div class="lfloat cms-top-brands">
+                <div
+                    id="dy-cms-b4"
+                    style="width:322px;"
+                    data-dy-embedded-object="true"
+                >
+                    <div
+                        class="dy_unit dy_smart_object_227887 dyother dyMonitor"
+                        data-adid="smart_object_227887||2864|||"
+                        data-dy-exp-id="236679"
+                        data-dy-var-id="15446294"
+                        data-dy-ver-data="5647795::0:1541571730354:78620:78620:2:3:0"
+                        data-dy-att-method="0"
+                        data-dy-att-seq="78620"
+                    >
+                        <style type="text/css"></style>
+                        <div data-dy-rimps="true">
+                            <div class="lfloat cms-top-brands">
+                                <a
+                                    id="js-fb1-tracker"
+                                    href="/women/mango/?csa=mangoaweighteen"
+                                    data-event-category="SG|DSK|MS|Women|Fashion-Brand-1"
+                                    data-event-label="bra|women|mangoaweighteen|all|na"
+                                >
+                                    <img
+                                        id="js-fb1-banner-tracker"
+                                        src="https://static-sg.zacdn.com/cms/DY/Oct18/MANGO-OCT18-W-B1.jpg"
+                                        style="margin-left: 44px;"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lfloat cms-spacer-3grid cms-top-brands">
+                <div
+                    id="dy-cms-b5"
+                    style="width:322px;"
+                    data-dy-embedded-object="true"
+                >
+                    <div
+                        class="dy_unit dy_smart_object_227889 dyother dyMonitor"
+                        data-adid="smart_object_227889||2864|||"
+                        data-dy-exp-id="236681"
+                        data-dy-var-id="15526116"
+                        data-dy-ver-data="5676520::0:1541571730358:78620:78620:2:3:0"
+                        data-dy-att-method="0"
+                        data-dy-att-seq="78620"
+                    >
+                        <style type="text/css"></style>
+                        <div data-dy-rimps="true">
+                            <div class="lfloat cms-top-brands">
+                                <a
+                                    id="js-fb2-tracker"
+                                    href="/women/the-face-shop/?csa=thefaceshopaweighteen"
+                                    data-event-category="SG|DSK|MS|Women|Fashion-Brand-2"
+                                    data-event-label="bra|women|thefaceshopaweighteen|all|na"
+                                >
+                                    <img
+                                        id="js-fb2-banner-tracker"
+                                        src="https://static-sg.zacdn.com/cms/DY/Oct18/THEFACESHOP-OKT18-W-B1.jpg"
+                                        style="margin-left: 400px; margin-top: -188px;"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lfloat cms-spacer-3grid cms-top-brands">
+                <div
+                    id="dy-cms-b6"
+                    style="width:322px;"
+                    data-dy-embedded-object="true"
+                >
+                    <div
+                        class="dy_unit dy_smart_object_227891 dyother dyMonitor"
+                        data-adid="smart_object_227891||2864|||"
+                        data-dy-exp-id="236683"
+                        data-dy-var-id="15641444"
+                        data-dy-ver-data="5709758::0:1541571730361:78620:78620:2:3:0"
+                        data-dy-att-method="0"
+                        data-dy-att-seq="78620"
+                    >
+                        <style type="text/css"></style>
+                        <div data-dy-rimps="true">
+                            <div class="lfloat cms-top-brands">
+                                <a
+                                    id="js-fb3-tracker"
+                                    href="/women/forever-new/?csa=forevernewarrivals"
+                                    data-event-category="SG|DSK|MS|Women|Fashion-Brand-3"
+                                    data-event-label="BRA|Women|forevernewarrivals|All|NA"
+                                >
+                                    <img
+                                        id="js-fb3-banner-tracker"
+                                        src="https://static-sg.zacdn.com/cms/DY/Sep18/FOREVERNEW-SEP18-W-B1.jpg"
+                                        style="margin-left:750px;margin-top:-227px;"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- //baby// -->
+
+<h3 style="margin-top:2%;">Top Picks in Baby</h3>
+<a
+    class="pull-right"
+    href="baby.html"
+>
+    View more
+</a>
+<mdb-carousel
+    [isControls]="true"
+    class="carousel-multi-item multi-animation"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+>
+    <mdb-carousel-item *ngFor="let item of slides8; let i = index">
+        <div class="row align-items-start">
+            <div
+                class="col-sm"
+                *ngFor="let card of item"
+            >
+                <mdb-card class="my-1">
+                    <mdb-card-img [src]="card.tag"></mdb-card-img>
+                    <mdb-card-img
+                        [src]="card.img"
+                        alt="Card image cap"
+                        style="height:35vh;width: 50%; align-self: center"
+                    ></mdb-card-img>
+                    <mdb-card-body>
+                        <mdb-card-title>
+                            <h4>{{card.title}}</h4>
+                        </mdb-card-title>
+                        <p>{{card.price}}</p>
+                        <a
+                            href="#"
+                            mdbBtn
+                            color="primary"
+                            class="waves-light"
+                            mdbWavesEffect
+                        >
+                            {{card.buttonText}}
+                        </a>
+                    </mdb-card-body>
+                </mdb-card>
+            </div>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
+<!-- ---------------- -->
+<!-- //image map baby/kids -->
+<div
+    class="imageMap"
+    style=" width: 100%"
+>
+    <img
+        usemap="#imgmap2017524144555"
+        src="assets/images/products/toys.png"
+        width="2000"
+        height="1070"
+        alt="Back To It Tape Me Out"
+        style="display: block;width: 197%;margin-left: 1%;margin-top: 3%; height: 100vh;"
+        border="0"
+    >
+    <map
+        id="imgmap2017524144555"
+        name="imgmap2017524144555"
+    >
+        <area
+            shape="rect"
+            alt="Toys- Shop"
+            title="Toys- Shop"
+            coords="3,0,600,400"
+            href="/en/tmsg/category/clothing-1365455/mens-shorts-swimshorts-6565919?intcmpid=homepage_portrait1_shorts"
+        >
+        <area
+            shape="rect"
+            alt="Games - Shop"
+            title="Games - Shop"
+            coords="768,0,1519,796"
+            href="/en/tmsg/category/clothing-1365455/mens-t-shirts-vests-2179523?intcmpid=homepage_portrait2_t-shirts"
+        >
+        <area
+            shape="default"
+            nohref="true"
+            title="Back To It Tape Me Out"
+            alt="Back To It Tape Me Out"
+        >
+    </map>
+</div>
+
+<!-- ---------------- -->
+ <!-- //bestseller// -->
+
+ <h3 style="margin-top:2%;">Best Seller</h3>
+ <a
+     class="pull-right"
+     href="bestseller.html"
+ >
+     View more
+ </a>
+ <mdb-carousel
+     [isControls]="true"
+     class="carousel-multi-item multi-animation"
+     [type]="'carousel-multi-item'"
+     [animation]="'slide'"
+ >
+     <mdb-carousel-item *ngFor="let item of slides9; let i = index">
+         <div class="row align-items-start">
+             <div
+                 class="col-sm"
+                 *ngFor="let card of item"
+             >
+                 <mdb-card class="my-1">
+                     <mdb-card-img [src]="card.tag"></mdb-card-img>
+                     <mdb-card-img
+                         [src]="card.img"
+                         alt="Card image cap"
+                         style="height:35vh;width: 50%; align-self: center"
+                     ></mdb-card-img>
+                     <mdb-card-body>
+                         <mdb-card-title>
+                             <h4>{{card.title}}</h4>
+                         </mdb-card-title>
+                         <p>{{card.price}}</p>
+                         <a
+                             href="#"
+                             mdbBtn
+                             color="primary"
+                             class="waves-light"
+                             mdbWavesEffect
+                         >
+                             {{card.buttonText}}
+                         </a>
+                     </mdb-card-body>
+                 </mdb-card>
+             </div>
+         </div>
+     </mdb-carousel-item>
+ </mdb-carousel>
+ 
+ <!-- ---------------- -->
+ <!-- //games// -->
+
+ <h3 style="margin-top:2%;">Top Picks in Games</h3>
+ <a
+     class="pull-right"
+     href="games.html"
+ >
+     View more
+ </a>
+ <mdb-carousel
+     [isControls]="true"
+     class="carousel-multi-item multi-animation"
+     [type]="'carousel-multi-item'"
+     [animation]="'slide'"
+ >
+     <mdb-carousel-item *ngFor="let item of slides10; let i = index">
+         <div class="row align-items-start">
+             <div
+                 class="col-sm"
+                 *ngFor="let card of item"
+             >
+                 <mdb-card class="my-1">
+                     <mdb-card-img [src]="card.tag"></mdb-card-img>
+                     <mdb-card-img
+                         [src]="card.img"
+                         alt="Card image cap"
+                         style="height:35vh;width: 50%; align-self: center"
+                     ></mdb-card-img>
+                     <mdb-card-body>
+                         <mdb-card-title>
+                             <h4>{{card.title}}</h4>
+                         </mdb-card-title>
+                         <p>{{card.price}}</p>
+                         <a
+                             href="#"
+                             mdbBtn
+                             color="primary"
+                             class="waves-light"
+                             mdbWavesEffect
+                         >
+                             {{card.buttonText}}
+                         </a>
+                     </mdb-card-body>
+                 </mdb-card>
+             </div>
+         </div>
+     </mdb-carousel-item>
+ </mdb-carousel>
+ <!-- ---------------- -->
+
+ <!-- //image map baby/kids -->
+<div
+class="imageMap"
+style=" width: 100%"
+>
+<img
+    usemap="#imgmap2017524144556"
+    src="assets/images/products/gym.png"
+    width="2000"
+    height="1070"
+    alt="Back To It Tape Me Out"
+    style="display: block;width: 197%;margin-left: 1%;margin-top: 3%; height: 100vh;"
+    border="0"
+>
+<map
+    id="imgmap2017524144556"
+    name="imgmap2017524144556"
+>
+    <area
+        shape="rect"
+        alt="Gym Essential"
+        title="Gym Essential"
+        coords="3,0,600,400"
+        href="/en/tmsg/category/clothing-1365455/mens-shorts-swimshorts-6565919?intcmpid=homepage_portrait1_shorts"
+    >
+    <area
+        shape="rect"
+        alt="Office Supplies"
+        title="Office Supplies"
+        coords="768,0,1519,796"
+        href="/en/tmsg/category/clothing-1365455/mens-t-shirts-vests-2179523?intcmpid=homepage_portrait2_t-shirts"
+    >
+    <area
+        shape="default"
+        nohref="true"
+        title="Back To It Tape Me Out"
+        alt="Back To It Tape Me Out"
+    >
+</map>
+</div>
+
+<!-- ---------------- -->
+    <!-- ---------------- -->
+
+    <!-- <div class= "container mt-4">
+  <div class="row"> 
+    <div class="col-md-12 text-center text success"><h2>Product Slider</h2></div>
+  </div>
+
+</div>
+<div class= "container mt-3">
+    <div class="row"> 
+      <div class="owl-carousel owl-theme">
+
+        <div class="item"> 
+          <div class= "card">
+            <img src="assets/images/products/a2.jpg" alt="img" class="card-img-top">
+            <div class="card-body">
+              <h3> T-Shirt 1</h3>
+              <h5>$<span class="text-center"> 23</span></h5>
+              <p>helo helo hello</p>
+              <button class = "btn btn-primary btn-sm">Buy Now</button>
+              </div>
+            </div>
+         </div>  
+
+       </div>
+     </div>
+  
+   </div>
+   <div>Some tags before</div> -->
+    <!-- <owl-carousel-o [options]="customOptions">
+     <ng-template carouselSlide><img src ="assets/images/products/a2.jpg"></ng-template>  
+     <ng-template carouselSlide><img src ="assets/images/products/a3.jpg"></ng-template>  
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template>  
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template> 
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template> 
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template> 
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template> 
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template> 
+     <ng-template carouselSlide><img src ="assets/images/products/a4.jpg"></ng-template> 
+     
+   </owl-carousel-o>
+   <div>Some tags after</div> -->
+
+    <!-- <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script> -->
+
+</div>

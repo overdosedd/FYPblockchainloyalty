@@ -1,0 +1,189 @@
+<!-- The content below is only a placeholder and can be replaced. -->
+<div id="logoArea" class="navbar" style="padding: 0px; display: block; margin-bottom: 0px;">
+  <!-- <a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar"> -->
+  <!-- <span class="icon-bar"></span> -->
+  <!-- <span class="icon-bar"></span> -->
+  <!-- <span class="icon-bar"></span> -->
+  <!-- </a> -->
+  <div class="navbar-inner" style="height: 9vh; position:sticky">
+    <div style="float: left; margin-top:10px;">
+      <a class="brand" routerLink="/home">
+        <img src="../../assets/images/products/Trollee_logo.png" height="61" width="231" style="width: 70%;height: 20%;">
+      </a>
+    </div>
+    <div style="margin-top:15px;">
+      <form class="form-inline navbar-search" method="post" action="../Category/Product_Category.html"> 
+        <input id="srchFld" class="srchTxt" type="text" style="width: 500px;height: 10%;" placeholder=" Search here!">
+        <button type="submit" id="submitButton" class="btn btn-primary" (click)="clickSearch()">
+          Go
+        </button>
+      </form>
+    </div>
+    <ul id="topMenu" class="nav pull-right" style="margin-right: 0px">
+      <li class *ngIf="loginService.checkedLoggedin()">
+        <a style="cursor: pointer" (click)="toProfile()">MY PROFILE</a>
+      </li>
+      <li class>
+        <a routerLink="/home/loyalty_point" routerLinkActive="active">GIFT CARDS</a>
+      </li>
+      <li class="checkout">
+        <a routerLink="home/shopping_cart">
+          My TROLLEE
+          <span id="checkout_items" class="checkout_items">
+            {{cartItemCount}}
+          </span>
+        </a>
+      </li>
+
+      <li class="dropdown">
+        <a href class="dropbtn">
+          SHOPPING FROM
+          <img src="../../assets/images/products/sgflag.png" height="30" width="30">
+        </a>
+        <div class="dropdown-content">
+          <a href="#" style="margin: 50px 0px 0px 0px;">
+            <img src="../../assets/images/products/sgflag.png" height="30" width="30">
+            Singapore
+          </a>
+          <a href="#">
+            <img src="../../assets/images/products/saudiflag.png" height="30" width="30">
+            Saudi Arabia
+          </a>
+        </div>
+      </li>
+
+      <!-- /*############################################ sign in #############################################*/ -->
+      <li class>
+        <a routerLink="/home/login" routerLinkActive="active" role="button" style=" padding-right:0; color: #DDD; cursor:pointer"
+          *ngIf="!loginService.checkedLoggedin() ">
+          Sign in
+        </a>
+
+        <a *ngIf="loginService.checkedLoggedin()" role="button" style=" padding-right:0; color: #DDD; cursor:pointer"
+        routerLink="/home" (click)="toProfile()" > Welcome, {{this.loginService.getCurrentUserName()}}!</a>
+      
+
+        <a *ngIf="loginService.checkedLoggedin()" role="button" style=" padding-right:0; color: #DDD; cursor:pointer"
+          routerLink="/home" (click)="logout()"> Logout</a>
+        
+
+      </li>
+
+      
+      <li class style="height: 40px; padding-bottom: 30px; padding-top: 8px; padding-right: 0px; padding-left: 10px;">
+        <span style="color: white;">|</span>
+      </li>
+      <li class>
+        <select style="padding-top: 9%; ; margin-top: 17px; font-size: 13px">
+          <option value="english">Eng</option>
+          <option value="arabic">Arab</option>
+        </select>
+      </li>
+    </ul>
+
+  </div>
+</div>
+<!-- 2nd navigation bar -->
+<div class="navbar-inner-2nd" style= "height: 4vh">
+   <!-- <ul id="secondmenu" class="header-right-side-menu ml-15"> -->
+    <!-- <a id="sideMenuBtn" style="color: black; cursor:pointer;margin-left: -45%;margin-top:10%;" (click)="sidebar.open()">
+      <i class="material-icons">
+        menu
+      </i>
+    </a> --> 
+
+ 
+ <ul id="info_new_ul" style="margin-left: 30%">
+    <li>
+      <a  routerLink= "home/dailydeal" style="color:black; ">
+        Daily Deals
+      </a>
+    </li>
+    <li>
+      <a routerLink= "home/electronics"  style="color:black;">
+        Electronics
+      </a>
+    </li>
+    <li>
+      <a routerLink= "home/fashion" style="color:black;">
+        Fashion
+      </a>
+    </li>
+    <li >
+      <a routerLink= "home/homekitchen" style="color:black;">
+        Home &amp; Kitchen
+      </a>
+    </li>
+    <li>
+      <a routerLink= "home/beautyfragrance" style="color:black;">
+        Beauty & Fragrance
+      </a>
+    </li>
+    <li>
+      <a routerLink= "home/babykid" style="color:black;">
+        Baby & Kids
+      </a>
+    </li>
+  </ul>
+ 
+  <!-- </ul> -->
+</div>
+
+<router-outlet></router-outlet>
+<router-outlet name="modal"></router-outlet>
+
+<!-- Footer ================================================================== -->
+<div id="footerSection">
+  <div class="container">
+    <div class="row">
+      <div class="span3">
+        <h5>ACCOUNT</h5>
+        <a href="login.html">YOUR ACCOUNT</a>
+        <a href="login.html">PERSONAL INFORMATION</a>
+        <a href="login.html">ADDRESSES</a>
+        <a href="login.html">DISCOUNT</a>
+        <a href="login.html">ORDER HISTORY</a>
+      </div>
+      <div class="span3">
+        <h5>INFORMATION</h5>
+        <a href="contact.html">CONTACT</a>
+        <a href="register.html">REGISTRATION</a>
+        <a href="legal_notice.html">LEGAL NOTICE</a>
+        <a href="tac.html">TERMS AND CONDITIONS</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="span3">
+        <h5>OUR OFFERS</h5>
+        <a href="#">NEW PRODUCTS</a>
+        <a href="#">TOP SELLERS</a>
+        <a href="special_offer.html">SPECIAL OFFERS</a>
+        <a href="#">MANUFACTURERS</a>
+        <a href="#">SUPPLIERS</a>
+      </div>
+      <div id="socialMedia" class="span3 pull-right" style="
+    float: right;
+    margin-top: -13.5%;
+    margin-left: 78%;
+">
+        <h5>SOCIAL MEDIA</h5>
+        <a href="#">
+          <img width="60" height="60" src="../../assets/images/facebook.png" title="facebook" alt="facebook">
+        </a>
+        <a href="#">
+          <img width="60" height="60" src="../../assets/images/twitter.png" title="twitter" alt="twitter">
+        </a>
+        <a href="#">
+          <img width="60" height="60" src="../../assets/images/youtube.png" title="youtube" alt="youtube">
+        </a>
+        <div class="b-footer__title--inverted" style=" margin-top: 30px;">
+          DOWNLOAD OUR APP NOW
+          <!-- <a href="https://www.zalora.sg/mobile-apps/"><svg class="icon_googleplay"><img src="../../assets/images/products/icon_googleplay.png" height="300px" width="507px" style=" margin-top: -250px; margin-left: -11px;"></svg></a>
+                    <a href="https://www.zalora.sg/mobile-apps/"><svg class="icon_appstore"><img src="../../assets/images/products/icon_AppStore.png" height="244" width="780" style="margin-top: -600px;margin-left: 150px;"></svg></a> -->
+        </div>
+        <!-- <a href="https://www.zalora.sg/mobile-apps/"><svg class="icon_googleplay"><img src="../../assets/images/products/icon_googleplay.png" height="300px" width="507px" style=" margin-top: -250px; margin-left: -11px;"></svg></a>
+                    <a href="https://www.zalora.sg/mobile-apps/"><svg class="icon_appstore"><img src="../../assets/images/products/icon_AppStore.png" height="244" width="780" style="margin-top: -600px;margin-left: 150px;"></svg></a> -->
+      </div>
+
+    </div>
+  </div>
+</div>
